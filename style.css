@@ -170,8 +170,15 @@ body {
   padding-top: 8px;
   inline-size: 35%;
   white-space: nowrap;
-  padding-left: 5px;
-  padding-right: 5px;
+
+  /* padding-left: 5px;
+  padding-right: 5px; */
+  padding: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin: 30px 5px; */
 }
 
 .lr {
@@ -475,7 +482,7 @@ textarea:focus {
   .allw {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     align-items: center;
   }
 
@@ -537,11 +544,14 @@ textarea:focus {
   .langframe {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 130px;
+    grid-gap: 24px;
     box-sizing: border-box;
+    width: 95%;
     padding: 10px;
     block-size: fit-content;
     align-items: stretch;
+    justify-items: center;
+    justify-content: space-evenly;
   }
 
   .langframe img:hover {
@@ -634,3 +644,16 @@ textarea:focus {
     transition-duration: 0.2s;
   }
 }
+
+/* @media only screen and (min-width: ) {
+  .lang{
+    display: flex;
+      flex-direction: row;
+      padding: 0%;
+      max-width: 350px;
+      padding-left: 8px;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+} */
