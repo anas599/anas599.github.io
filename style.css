@@ -566,7 +566,7 @@ textarea:focus {
     background-image: url(./Assets/contact-desktop-L.png), url(./Assets/contact-desktop-R.png);
     background-position: bottom left, right;
     background-repeat: no-repeat;
-    border-bottom: 1px #DFE1E6 solid;
+    border-bottom: 1px #dfe1e6 solid;
   }
 
   textarea {
