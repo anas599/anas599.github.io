@@ -159,6 +159,13 @@ body {
   max-width: 350px;
   padding-left: 8px;
 }
+.lang2 {
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+  max-width: 350px;
+  padding-left: 18px;
+}
 
 .l1,
 .l2,
@@ -294,6 +301,20 @@ body {
 }
 
 .allw {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #ebf0ee 3px solid;
+  border-radius: 10px;
+  width: 98%;
+  padding-block-start: 10px;
+  margin-bottom: 20%;
+  padding-block-end: 5%;
+  max-width: 350px;
+}
+.allw2 {
+background-color: #ebf0ee;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -648,9 +669,9 @@ textarea:focus {
     color: #36b37e;
     border: none;
     padding-block-end: 10px;
-    font-size: 12px;
+    font-size: 10px;
     padding-top: 8px;
-    inline-size: 30%;
+    inline-size: 20%;
     white-space: nowrap;
   }
 
