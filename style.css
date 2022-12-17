@@ -150,7 +150,7 @@ body {
   grid-row-end: 4;
   width: 100%;
   position: relative;
-      justify-items: center;
+  justify-items: center;
 }
 
 .lang {
@@ -158,8 +158,10 @@ body {
   flex-direction: row;
   padding: 0%;
   max-width: 350px;
+
   /* padding-left: 8px; */
 }
+
 .lang2 {
   display: flex;
   flex-direction: row;
@@ -172,27 +174,28 @@ body {
 .l2,
 .l3,
 .l4 {
-    background-color: #ebf0ee;
-      list-style: none;
-      box-sizing: border-box;
-      border-radius: 8px;
-      color: #3a4a42;
-      border: none;
-      padding-block-end: 10px;
-      margin-inline-start: 10px;
-      font-size: 12px;
-      padding: 10px;
-      /* padding-top: 8px; */
-      inline-size: 35%;
-      white-space: nowrap;
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0px 5px;
-    }
+  background-color: #ebf0ee;
+  list-style: none;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #3a4a42;
+  border: none;
+  padding-block-end: 10px;
+  margin-inline-start: 10px;
+  font-size: 12px;
+  padding: 10px;
+
+  /* padding-top: 8px; */
+  inline-size: 35%;
+  white-space: nowrap;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
 
 .lr {
-display: flex;
+  display: flex;
   background-color: #fff;
   list-style: none;
   box-sizing: border-box;
@@ -203,11 +206,12 @@ display: flex;
   padding-block-end: 10px;
   font-size: 12px;
   padding-top: 8px;
-      padding-inline: 5px;
+  padding-inline: 5px;
   inline-size: 35%;
   align-items: center;
   justify-content: center;
-  align-content: center;}
+  align-content: center;
+}
 
 .lc {
   background-color: #fff;
@@ -316,8 +320,9 @@ display: flex;
   padding-block-end: 5%;
   max-width: 350px;
 }
+
 .allw2 {
-background-color: #ebf0ee;
+  background-color: #ebf0ee;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -385,7 +390,7 @@ background-color: #ebf0ee;
 }
 
 .endp {
-display: flex;
+  display: flex;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -506,7 +511,6 @@ textarea:focus {
   border-bottom: #d6d6d6 2px solid;
   border-radius: 20px;
   width: 100%;
-
 }
 
 .topnav a.icon {
@@ -550,7 +554,6 @@ textarea:focus {
   .allw {
     display: flex;
     flex-direction: column;
-
     align-items: center;
     width: 90%;
     max-width: 90%;
@@ -587,6 +590,7 @@ textarea:focus {
   .allw img:hover {
     transform: scale(1.1);
   }
+
   .head1 {
     background-image: url('./Assets/background_desktop.png');
     -webkit-background-size: cover;
@@ -631,7 +635,6 @@ textarea:focus {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 24px;
     box-sizing: border-box;
-
     padding: 10px;
     block-size: fit-content;
     align-items: stretch;
@@ -662,9 +665,10 @@ textarea:focus {
     padding-block-end: 10px;
     font-size: 10px;
     padding-top: 8px;
+
     /* inline-size: 20%; */
     white-space: nowrap;
-        padding-inline: 8px;
+    padding-inline: 8px;
   }
 
   .endp {
