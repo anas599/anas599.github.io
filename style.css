@@ -547,17 +547,8 @@ textarea:focus {
   display: none;
 }
 
-.topnav .close-icon {
-  display: none;
-}
 
-.icon .close-icon {
-  display: none;
-}
 
-#myLinks.open {
-  display: block;
-}
 
 @media only screen and (min-width: 770px) {
   .recent-abt {
