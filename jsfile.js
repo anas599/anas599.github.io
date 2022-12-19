@@ -12,8 +12,7 @@ function myFunction() {
   } else {
     icon.classList.replace('fa-times', 'fa-bars');
     x.style.display = 'none';
-    logo.style.display = "flex";
-
+    logo.style.display = 'flex';
   }
 
   mobileMenuOptions.forEach((option) => {
