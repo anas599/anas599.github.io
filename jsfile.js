@@ -1,6 +1,7 @@
 const icon = document.querySelector('.icon i');
 const x = document.getElementById('myLinks');
 
+// eslint-disable-next-line no-unused-vars
 function myFunction() {
   if (icon.classList.contains('fa-bars')) {
     icon.classList.remove('fa-bars');
