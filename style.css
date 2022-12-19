@@ -531,10 +531,13 @@ textarea:focus {
 .topnav #myLinks {
   display: none;
   flex-direction: column;
-  height: 600px;
+  height: 100vh;
   border-bottom: #d6d6d6 2px solid;
   border-radius: 20px;
   width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 10vh;
 }
 
 .topnav a.icon {
