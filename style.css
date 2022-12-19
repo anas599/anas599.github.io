@@ -167,12 +167,10 @@ body {
   flex-wrap: wrap;
   width: 100%;
   list-style: none;
-  padding-left: 0px;
-
-    align-content: center;
-      justify-content: center;
-      align-items: center;
-    
+  padding-left: 0;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .l1,
@@ -201,12 +199,10 @@ body {
 
 .lr {
   display: flex;
-
-    align-content: center;
-      justify-content: center;
-      align-items: center;
-    
-width: 60px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
   height: 35px;
   background-color: rgb(255, 255, 255);
   border: none;
@@ -216,8 +212,8 @@ width: 60px;
   font-weight: bold;
   text-align: center;
   border-radius: 10px;
-color: #36B37E;
-padding-inline: 5px;
+  color: #36b37e;
+  padding-inline: 5px;
 }
 
 .lc {
@@ -261,22 +257,24 @@ padding-inline: 5px;
   padding-top: 8px;
   inline-size: 26%;
 }
- .button-container {
-   display: flex;
-   flex-wrap: wrap;
-   width: 350px;
- }
 
- .button {
-   width: 70px;
-   height: 30px;
-   background-color: lightgray;
-   border: none;
-   outline: none;
-   margin: 5px;
-   font-size: 14px;
-   text-align: center;
- }
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.button {
+  width: 70px;
+  height: 30px;
+  background-color: lightgray;
+  border: none;
+  outline: none;
+  margin: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
 .see {
   color: azure;
   top: 50%;
@@ -526,42 +524,43 @@ textarea:focus {
 
 /* --------dropdown menu---------- */
 
-    .topnav #myLinks {
-      display: none;
-      flex-direction: column;
-      height: 600px;
-      border-bottom: #d6d6d6 2px solid;
-      border-radius: 20px;
-      width: 100%;
-    }
-  
-    .topnav a.icon {
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  
-    .topnavdt {
-      display: none;
-    }
-  
-    .topnav .close-icon {
-      display: none;
-    }
-  
-    #myLinks {
-      display: none;
-    }
-  
-    .icon .close-icon {
-      display: none;
-    }
-  
-    #myLinks.open {
-      display: block;
-    }
-    @media only screen and (min-width: 770px) {
+.topnav #myLinks {
+  display: none;
+  flex-direction: column;
+  height: 600px;
+  border-bottom: #d6d6d6 2px solid;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnavdt {
+  display: none;
+}
+
+.topnav .close-icon {
+  display: none;
+}
+
+#myLinks {
+  display: none;
+}
+
+.icon .close-icon {
+  display: none;
+}
+
+#myLinks.open {
+  display: block;
+}
+
+@media only screen and (min-width: 770px) {
   .recent-abt {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
