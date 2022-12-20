@@ -198,6 +198,12 @@ body {
   margin: 0 5px;
 }
 
+.popUp {
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+}
+
 .lr {
   display: flex;
   align-content: center;
@@ -292,7 +298,8 @@ body {
 .see:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2), 0 6px 20px 0 rgba(14, 175, 49, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2),
+    0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
 .see:active {
@@ -316,7 +323,8 @@ body {
 .getres:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2), 0 6px 20px 0 rgba(14, 175, 49, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2),
+    0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
 .getres:active {
@@ -405,7 +413,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 95%;
-  background-image: url(./Assets/Frame.png), url(./Assets/about-me-mobile\ RU.png);
+  background-image: url(./Assets/Frame.png),
+    url(./Assets/about-me-mobile\ RU.png);
   background-position: bottom left, top right;
   background-repeat: no-repeat;
 }
@@ -422,8 +431,8 @@ body {
   align-items: center;
 }
 
-input[type=text],
-input[type=email] {
+input[type='text'],
+input[type='email'] {
   font-family: 'inter', sans-serif;
   width: 100%;
   padding-block: 20px;
@@ -458,8 +467,8 @@ textarea {
   padding-top: 10px;
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
+input[type='text']:focus,
+input[type='email']:focus,
 textarea:focus {
   border: 1px solid green;
 }
@@ -484,7 +493,8 @@ textarea:focus {
 .getintouch:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2), 0 6px 20px 0 rgba(14, 175, 49, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2),
+    0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
 .getintouch:active {
@@ -705,7 +715,8 @@ textarea:focus {
     align-items: flex-start;
     flex-direction: row;
     padding-right: 150px;
-    background-image: url(./Assets/contact-desktop-L.png), url(./Assets/contact-desktop-R.png);
+    background-image: url(./Assets/contact-desktop-L.png),
+      url(./Assets/contact-desktop-R.png);
     background-position: bottom left, right;
     background-repeat: no-repeat;
     border-bottom: 1px #dfe1e6 solid;
@@ -725,8 +736,8 @@ textarea:focus {
     max-width: 30%;
   }
 
-  input[type=text],
-  input[type=email] {
+  input[type='text'],
+  input[type='email'] {
     height: 48px;
     padding: 0;
     width: 550px;
