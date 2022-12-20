@@ -1,58 +1,61 @@
-let projectsInfo = [
-  Project1: {
+const projectsInfo = [
+  {
     name: 'Multi-Post Stories Gain+Glory',
     description: './Assets/desc1.txt',
     featuredImage: './Assets/Snapshoot.png',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript'],
     liveLink: 'https://github.com/anas599/anas599.github.io',
-    sourceLink: 'https://anas599.github.io/'
+    sourceLink: 'https://anas599.github.io/',
   },
-  Project2: {
+  {
     name: 'Multi-Post Stories Gain+Glory',
     description: './Assets/desc1.txt',
     featuredImage: './Assets/Snapshoot.png',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript'],
     liveLink: 'https://github.com/anas599/anas599.github.io',
-    sourceLink: 'https://anas599.github.io/'
+    sourceLink: 'https://anas599.github.io/',
   },
-  Project3: {
+  {
     name: 'Multi-Post Stories Gain+Glory',
     description: './Assets/desc1.txt',
     featuredImage: './Assets/Snapshoot.png',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript'],
     liveLink: 'https://github.com/anas599/anas599.github.io',
-    sourceLink: 'https://anas599.github.io/'
+    sourceLink: 'https://anas599.github.io/',
   },
-  Project4: {
+  {
     name: 'Multi-Post Stories Gain+Glory',
     description: './Assets/desc1.txt',
     featuredImage: './Assets/Snapshoot.png',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript'],
     liveLink: 'https://github.com/anas599/anas599.github.io',
-    sourceLink: 'https://anas599.github.io/'
+    sourceLink: 'https://anas599.github.io/',
   },
-  Project5: {
+  {
     name: 'Multi-Post Stories Gain+Glory',
     description: './Assets/desc1.txt',
     featuredImage: './Assets/Snapshoot.png',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript'],
     liveLink: 'https://github.com/anas599/anas599.github.io',
-    sourceLink: 'https://anas599.github.io/'
+    sourceLink: 'https://anas599.github.io/',
   },
-  Project6: {
+  {
     name: 'Multi-Post Stories Gain+Glory',
     description: './Assets/desc1.txt',
     featuredImage: './Assets/Snapshoot.png',
     technologies: ['Ruby on rails', 'CSS', 'JavaScript'],
     liveLink: 'https://github.com/anas599/anas599.github.io',
-    sourceLink: 'https://anas599.github.io/'
-  }
-]
+    sourceLink: 'https://anas599.github.io/',
+  },
+];
+
 const workContainer = document.getElementById('work-container');
-workContainer.innerHTML = projectsInfo.forEach((project, i) => {return `
+workContainer.innerHTML = projectsInfo
+  .map((project) => `
   <article>
-  <img src="${project.featuredImage}" alt="${projectsInfo[project].description}">
-  <h3>${projectsInfo[project].name}</h3>
-  <p>${projectsInfo[project].description}</p>
-  <ul>${projectsInfo[project].technologies}</ul>
-  </article>`});
+  <img src="${project.featuredImage}" alt="${project.description}">
+  <h3>${project.name}</h3>
+  <p>${project.description}</p>
+  <ul class="lang">${project.technologies} </ul>
+  </article>`)
+  .join('');
