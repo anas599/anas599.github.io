@@ -8,7 +8,9 @@ const details = {
 const workContainer = document.getElementById('work-container');
 workContainer.innerHTML = `
   <img src="${details.featuredImage}" alt="${details.description}">
-  <h3>${details.name}</h3>
+  <h3 class="multi">${details.name}</h3>
   <p>${details.description}</p>
-  <ul>${details.languages}</ul>
-  `;
+  <ul class="lang">${
+  details.languages.map((language) => `<li>${language}</li>`).join('')
+}
+  </ul>`;
