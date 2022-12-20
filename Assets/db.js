@@ -48,11 +48,3 @@ let projectsInfo = [
     sourceLink: 'https://anas599.github.io/'
   }
 ]
-const workContainer = document.getElementById('work-container');
-workContainer.innerHTML = projectsInfo.forEach((project, i) => {return `
-  <article>
-  <img src="${project.featuredImage}" alt="${projectsInfo[project].description}">
-  <h3>${projectsInfo[project].name}</h3>
-  <p>${projectsInfo[project].description}</p>
-  <ul>${projectsInfo[project].technologies}</ul>
-  </article>`});
