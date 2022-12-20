@@ -199,9 +199,14 @@ body {
 }
 
 .popUp {
+  position: fixed;
+  top: 0;
+  background: green;
   display: none;
   flex-direction: column;
   width: 100vw;
+  height: 100vh;
+  z-index: 1;
 }
 
 .lr {
