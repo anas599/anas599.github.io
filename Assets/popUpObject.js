@@ -1,4 +1,4 @@
-let projectsInfo = [
+const projectsInfo = [
   {
     name: 'Multi-Post Stories Gain+Glory',
     description:
@@ -55,7 +55,7 @@ let projectsInfo = [
   },
 ];
 
-let projectsCont = document.getElementById('work-container');
+const projectsCont = document.getElementById('work-container');
 
 projectsCont.innerHTML = projectsInfo
   .map(
@@ -67,24 +67,24 @@ projectsCont.innerHTML = projectsInfo
     .map((tech) => `<li class='l1'>${tech}</li>`)
     .join('')}</ul>
   <button id='see-project-btn' class='${i}' onclick='popUpFun()'>See Project</button>
-</article>`
+</article>`,
   )
   .join('');
 
-let seeProjectBtn = document.getElementById('see-project-btn');
+const seeProjectBtn = document.getElementById('see-project-btn');
 const popUp = document.querySelector('.popUp');
 
 function popUpFun() {
   popUp.style.display = 'flex';
 }
 
-let closePopUp = document.querySelector('.close-popUp');
+const closePopUp = document.querySelector('.close-popUp');
 
 function close() {
   popUp.style.display = 'none';
 }
 
-let index = seeProjectBtn.classList[0];
+const index = seeProjectBtn.classList[0];
 console.log(index);
 popUp.innerHTML = `<button class="close-popUp" onclick="close()">X</button>
   <img style='width: 20%' src='${projectsInfo[index].featuredImage}'>

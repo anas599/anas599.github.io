@@ -303,7 +303,8 @@ body {
 .see:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2),
+  box-shadow:
+    0 4px 8px 0 rgba(49, 181, 9, 0.2),
     0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
@@ -328,7 +329,8 @@ body {
 .getres:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2),
+  box-shadow:
+    0 4px 8px 0 rgba(49, 181, 9, 0.2),
     0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
@@ -418,7 +420,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 95%;
-  background-image: url(./Assets/Frame.png),
+  background-image:
+    url(./Assets/Frame.png),
     url(./Assets/about-me-mobile\ RU.png);
   background-position: bottom left, top right;
   background-repeat: no-repeat;
@@ -498,7 +501,8 @@ textarea:focus {
 .getintouch:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2),
+  box-shadow:
+    0 4px 8px 0 rgba(49, 181, 9, 0.2),
     0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
@@ -564,6 +568,17 @@ textarea:focus {
 
 .topnavdt {
   display: none;
+}
+
+#errorMsg {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 @media only screen and (min-width: 770px) {
@@ -720,7 +735,8 @@ textarea:focus {
     align-items: flex-start;
     flex-direction: row;
     padding-right: 150px;
-    background-image: url(./Assets/contact-desktop-L.png),
+    background-image:
+      url(./Assets/contact-desktop-L.png),
       url(./Assets/contact-desktop-R.png);
     background-position: bottom left, right;
     background-repeat: no-repeat;
@@ -822,4 +838,9 @@ textarea:focus {
   }
 
   /* --------dropdown menu---------- */
+
+  form {
+    display: inline-block;
+    flex-direction: column;
+  }
 }
