@@ -66,7 +66,7 @@ projectsCont.innerHTML = projectsInfo
   <ul class='lang'>${project.technologies
     .map((tech) => `<li class='l1'>${tech}</li>`)
     .join('')}</ul>
-  <button id='see-project-btn' class='project${i}' onclick='popUpFun()'>See Project</button>
+  <button id='see-project-btn' class='${i}' onclick='popUpFun()'>See Project</button>
 </article>`
   )
   .join('');
@@ -84,21 +84,13 @@ function close() {
   popUp.style.display = 'none';
 }
 
-popUp.innerHTML = `
-<button class="close-popUp" onclick="close()">X</button>
-<img style='width: 20%' src='${projectsInfo[1].featuredImage}'>
-<h1>${projectsInfo[0].name}</h1>
-<ul>${projectsInfo[0].technologies
-  .map((tech) => `<li class='l1'>${tech}</li>`)
-  .join('')}
-</ul>
-<p>${projectsInfo[0].description}`;
-
-closePopUp.addEventListener('click', close);
-// popUp.innerHTML = `<div>
-// <img src='${projectsInfofeaturedImage}'>
-//   <h1>${projectsInfo[0].name}</h1>
-//   <ul class='lang'>${projectsInfo.project.technologies
-//     .map((tech) => `<li class='l1'>${tech}</li>`)
-//     .join('')}</ul>
-// </div>`;
+let index = seeProjectBtn.classList[0];
+console.log(index);
+popUp.innerHTML = `<button class="close-popUp" onclick="close()">X</button>
+  <img style='width: 20%' src='${projectsInfo[index].featuredImage}'>
+  <h1>${projectsInfo[index].name}</h1>
+  <ul>${projectsInfo[0].technologies
+    .map((tech) => `<li class='l1'>${tech}</li>`)
+    .join('')}
+  </ul>
+  <p>${projectsInfo[0].description}`;
