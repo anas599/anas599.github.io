@@ -1,4 +1,5 @@
 const form = document.querySelector('form');
+// eslint-disable-next-line no-use-before-define
 form.addEventListener('submit', validateForm);
 function validateForm(event) {
   event.preventDefault();
