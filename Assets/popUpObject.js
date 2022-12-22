@@ -107,8 +107,8 @@ popUp.innerHTML = `
   <div class="h3">
 <h3 class="h33">${projectsInfo[0].name}</h3>
 <ul class='lang'>${projectsInfo[0].technologies
-  .map((tech) => `<li class='l1'>${tech}</li>`)
-  .join("")}
+    .map((tech) => `<li class='l1'>${tech}</li>`)
+    .join('')}
 </ul>
 </div>
 
