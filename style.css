@@ -184,6 +184,7 @@ body {
   flex-direction: row;
   padding: 0%;
   max-width: 350px;
+  margin: 10px;
 
   /* padding-left: 8px; */
 }
@@ -229,12 +230,13 @@ body {
   transform: translate(-49%, -49%);
   align-items: center;
   justify-content: center;
+  justify-items: center;
   position: fixed;
   background: rgb(255, 255, 255);
   display: none;
   flex-direction: column;
   width: 90vw;
-  height: 90vh;
+  height: 85vh;
   z-index: 1;
   border: #d6d6d6 solid 1px;
   border-radius: 15px;
@@ -392,6 +394,7 @@ body {
 }
 
 #buttonsLive {
+  font-size: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -655,13 +658,17 @@ textarea:focus {
 }
 
 .projectImage {
-  width: 90vw;
+  width: 80vw;
   border-radius: 10px;
+  justify-content: center;
+
   /* margin: 15px; */
 }
-.p{
+
+.p {
   margin: 10px;
 }
+
 .see2 {
   color: azure;
   top: 50%;
@@ -988,6 +995,7 @@ textarea:focus {
 
   .buttonsLive {
     grid-area: buttonsLive;
+    font-size: 12px;
   }
 
   .p {
@@ -1009,7 +1017,6 @@ textarea:focus {
   #see-project-btnPop {
     display: flex;
     flex-direction: row-reverse;
-
   }
 
   .see2 {
