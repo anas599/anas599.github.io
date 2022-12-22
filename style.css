@@ -23,8 +23,7 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
-  filter: none ;
-
+  filter: none;
 }
 
 /* @media only screen and (max-width: 600px) {
@@ -137,17 +136,38 @@ body {
   padding-inline-end: 10%;
 }
 
-.fa {
+/* test for popup */
+
+/* .fa {
   display: flex;
   flex-direction: row-reverse;
   padding: 20px;
   font-size: 30px;
-  /* width: 5px; */
+  width: 5px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
   color: #505f79;
   background-color: #008552;
+} */
+
+/* test for popup */
+
+.fa {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+  font-size: 30px;
+  width: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #505f79;
+}
+
+#see-project-btnPop {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .work1 {
@@ -204,12 +224,11 @@ body {
 }
 
 .popUp {
-  justify-content: flex-start;
   left: 50%;
-    top: 50%;
-    transform: translate(-49%, -49%);
-    align-items: center;
-    justify-content: center;
+  top: 50%;
+  transform: translate(-49%, -49%);
+  align-items: center;
+  justify-content: center;
   position: fixed;
   background: rgb(255, 255, 255);
   display: none;
@@ -219,12 +238,7 @@ body {
   z-index: 1;
   border: #d6d6d6 solid 1px;
   border-radius: 15px;
-      width: 90vw;
-        height: 90vh;
-        z-index: 1;
-        /* justify-content: center; */
-        align-content: stretch;
-        align-items: center;
+  align-content: stretch;
 }
 
 .lr {
@@ -312,12 +326,13 @@ body {
   border: none;
   padding-block-end: 10px;
   font-size: 15px;
+  padding: 10px;
   padding-top: 8px;
   border-radius: 7px;
   height: 50px;
   width: fit-content;
-  padding: 10px;
 }
+
 .seePop {
   color: azure;
   top: 50%;
@@ -329,18 +344,23 @@ body {
   border-radius: 7px;
   height: 50px;
   width: fit-content;
+
   /* padding: 10px; */
 }
-.close-popUp{
+
+.close-popUp {
   display: flex;
   background-color: rgba(255, 255, 255, 0);
   border: none;
   position: absolute;
+
   /* padding-left: 300px; */
 }
-#imagePopUp{
+
+#imagePopUp {
   width: 80vw;
 }
+
 #see-project-btn-Pop {
   display: flex;
   width: 180px;
@@ -352,14 +372,17 @@ body {
   font-size: 25px;
   font-weight: 500;
 }
-#imageCloseBtn{
+
+#imageCloseBtn {
   display: flex;
   flex-direction: row-reverse;
 }
+
 .see:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2),
+  box-shadow:
+    0 4px 8px 0 rgba(49, 181, 9, 0.2),
     0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
@@ -367,10 +390,13 @@ body {
   background-color: #008552;
   transition: 0.7s;
 }
-#buttonsLive{
+
+#buttonsLive {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
+
 .getres {
   color: azure;
   background-color: #36b37f;
@@ -387,7 +413,8 @@ body {
 .getres:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2),
+  box-shadow:
+    0 4px 8px 0 rgba(49, 181, 9, 0.2),
     0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
@@ -477,7 +504,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 95%;
-  background-image: url(./Assets/Frame.png),
+  background-image:
+    url(./Assets/Frame.png),
     url(./Assets/about-me-mobile\ RU.png);
   background-position: bottom left, top right;
   background-repeat: no-repeat;
@@ -557,7 +585,8 @@ textarea:focus {
 .getintouch:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2),
+  box-shadow:
+    0 4px 8px 0 rgba(49, 181, 9, 0.2),
     0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
@@ -623,6 +652,28 @@ textarea:focus {
 
 .topnavdt {
   display: none;
+}
+
+.projectImage {
+  width: 90vw;
+  border-radius: 10px;
+  /* margin: 15px; */
+}
+.p{
+  margin: 10px;
+}
+.see2 {
+  color: azure;
+  top: 50%;
+  background-color: #36b37f;
+  border: none;
+  padding-block-end: 10px;
+  font-size: 15px;
+  padding: 10px;
+  padding-top: 8px;
+  border-radius: 7px;
+  height: 50px;
+  width: 40vw;
 }
 
 @media only screen and (min-width: 770px) {
@@ -748,10 +799,17 @@ textarea:focus {
     transform: scale(1.3);
     transition-duration: 0.2s;
   }
-#imagePopUp {
-  width: 80vw;
-  max-width: 70%;
-}  .lang {
+
+  /* #imagePopUp {
+    width: 80vw;
+    max-width: 70%;
+  } */
+  .imagePopUp {
+    display: flex;
+    width: 500px;
+  }
+
+  .lang {
     padding-right: 8px;
   }
 
@@ -782,7 +840,8 @@ textarea:focus {
     align-items: flex-start;
     flex-direction: row;
     padding-right: 150px;
-    background-image: url(./Assets/contact-desktop-L.png),
+    background-image:
+      url(./Assets/contact-desktop-L.png),
       url(./Assets/contact-desktop-R.png);
     background-position: bottom left, right;
     background-repeat: no-repeat;
@@ -881,6 +940,95 @@ textarea:focus {
     font-size: 20px;
     padding-inline-end: 30px;
     padding-inline-start: 30px;
+  }
+
+  .popUp {
+    display: none;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0 0;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imageCloseBtn imageCloseBtn imageCloseBtn"
+      "imageCloseBtn imageCloseBtn imageCloseBtn"
+      "rest rest rest";
+    justify-items: center;
+    width: 50vw;
+    height: 85vh;
+  }
+
+  .imageCloseBtn {
+    grid-area: imageCloseBtn;
+    align-items: baseline;
+    justify-items: end;
+  }
+
+  .rest {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 0fr 2.3fr;
+    gap: 0 0;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "h3 h3 buttonsLive"
+      "lang lang ."
+      "p p p";
+    grid-area: rest;
+  }
+
+  .h3 {
+    grid-area: h3;
+    font-size: 12px;
+    border: #008552 1px solid;
+  }
+
+  .lang {
+    grid-area: lang;
+  }
+
+  .buttonsLive {
+    grid-area: buttonsLive;
+  }
+
+  .p {
+    grid-area: p;
+    font-size: 10px;
+    margin: 20px;
+  }
+
+  .projectImage {
+    padding-bottom: 10px;
+    padding-top: 50px;
+    width: 48vw;
+    height: fit-content;
+    justify-content: center;
+
+    /* height: 50vh; */
+  }
+
+  #see-project-btnPop {
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+
+  .see2 {
+    color: azure;
+    top: 50%;
+    background-color: #36b37f;
+    border: none;
+    padding-block-end: 10px;
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 8px;
+    border-radius: 7px;
+    height: 40px;
+    width: 120px;
+  }
+
+  #see-project-git {
+    content: "f09b";
+    background-color: #008552;
   }
 
   /* --------dropdown menu---------- */
