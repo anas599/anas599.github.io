@@ -23,6 +23,7 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
+  filter: none;
 }
 
 /* @media only screen and (max-width: 600px) {
@@ -135,6 +136,22 @@ body {
   padding-inline-end: 10%;
 }
 
+/* test for popup */
+
+/* .fa {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+  font-size: 30px;
+  width: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #505f79;
+  background-color: #008552;
+} */
+
+/* test for popup */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -196,6 +213,26 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 5px;
+}
+
+.popUp {
+  justify-content: flex-start;
+  left: 50%;
+  top: 50%;
+  transform: translate(-49%, -49%);
+  align-items: center;
+  position: fixed;
+  background: rgb(255, 255, 255);
+  display: none;
+  flex-direction: column;
+  width: 90vw;
+  height: 90vh;
+  z-index: 1;
+  border: #d6d6d6 solid 1px;
+  border-radius: 15px;
+
+  /* justify-content: center; */
+  align-content: stretch;
 }
 
 .lr {
@@ -281,23 +318,76 @@ body {
   top: 50%;
   background-color: #36b37f;
   border: none;
+  padding: 10px;
   padding-block-end: 10px;
   font-size: 15px;
   padding-top: 8px;
   border-radius: 7px;
   height: 50px;
-  width: 100px;
+  width: fit-content;
+}
+
+.seePop {
+  color: azure;
+  top: 50%;
+  background-color: #36b37f;
+  border: none;
+  padding-block-end: 10px;
+  font-size: 15px;
+  padding-top: 8px;
+  border-radius: 7px;
+  height: 50px;
+  width: fit-content;
+
+  /* padding: 10px; */
+}
+
+.close-popUp {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  position: absolute;
+
+  /* padding-left: 300px; */
+}
+
+#imagePopUp {
+  width: 80vw;
+}
+
+#see-project-btn-Pop {
+  display: flex;
+  width: 180px;
+  margin: 10px;
+  flex-direction: row-reverse;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#imageCloseBtn {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .see:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2), 0 6px 20px 0 rgba(14, 175, 49, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(49, 181, 9, 0.2),
+    0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
 .see:active {
   background-color: #008552;
   transition: 0.7s;
+}
+
+#buttonsLive {
+  display: flex;
+  flex-direction: row;
 }
 
 .getres {
@@ -316,7 +406,9 @@ body {
 .getres:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2), 0 6px 20px 0 rgba(14, 175, 49, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(49, 181, 9, 0.2),
+    0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
 .getres:active {
@@ -405,7 +497,9 @@ body {
   display: flex;
   flex-direction: column;
   width: 95%;
-  background-image: url(./Assets/Frame.png), url(./Assets/about-me-mobile\ RU.png);
+  background-image:
+    url(./Assets/Frame.png),
+    url(./Assets/about-me-mobile\ RU.png);
   background-position: bottom left, top right;
   background-repeat: no-repeat;
 }
@@ -422,8 +516,8 @@ body {
   align-items: center;
 }
 
-input[type=text],
-input[type=email] {
+input[type='text'],
+input[type='email'] {
   font-family: 'inter', sans-serif;
   width: 100%;
   padding-block: 20px;
@@ -458,8 +552,8 @@ textarea {
   padding-top: 10px;
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
+input[type='text']:focus,
+input[type='email']:focus,
 textarea:focus {
   border: 1px solid green;
 }
@@ -484,7 +578,9 @@ textarea:focus {
 .getintouch:hover {
   background-color: #36b37f;
   transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2), 0 6px 20px 0 rgba(14, 175, 49, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(49, 181, 9, 0.2),
+    0 6px 20px 0 rgba(14, 175, 49, 0.19);
 }
 
 .getintouch:active {
@@ -551,13 +647,23 @@ textarea:focus {
   display: none;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#errorMsg {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 @media only screen and (min-width: 770px) {
   .recent-abt {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 24px;
     box-sizing: border-box;
-    width: 95%;
+    width: 90vw;
     padding: 10px;
     block-size: fit-content;
     align-items: center;
@@ -570,7 +676,7 @@ textarea:focus {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 24px;
     box-sizing: border-box;
-    width: 95%;
+    width: 90vw;
     padding: 10px;
     block-size: fit-content;
     align-items: center;
@@ -624,6 +730,7 @@ textarea:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    filter: none;
   }
 
   .social {
@@ -674,6 +781,11 @@ textarea:focus {
     transition-duration: 0.2s;
   }
 
+  #imagePopUp {
+    width: 80vw;
+    max-width: 70%;
+  }
+
   .lang {
     padding-right: 8px;
   }
@@ -705,7 +817,9 @@ textarea:focus {
     align-items: flex-start;
     flex-direction: row;
     padding-right: 150px;
-    background-image: url(./Assets/contact-desktop-L.png), url(./Assets/contact-desktop-R.png);
+    background-image:
+      url(./Assets/contact-desktop-L.png),
+      url(./Assets/contact-desktop-R.png);
     background-position: bottom left, right;
     background-repeat: no-repeat;
     border-bottom: 1px #dfe1e6 solid;
@@ -725,8 +839,8 @@ textarea:focus {
     max-width: 30%;
   }
 
-  input[type=text],
-  input[type=email] {
+  input[type='text'],
+  input[type='email'] {
     height: 48px;
     padding: 0;
     width: 550px;
@@ -805,5 +919,14 @@ textarea:focus {
     padding-inline-start: 30px;
   }
 
-  /* --------dropdown menu---------- */
+  form {
+    display: inline-block;
+    width: fit-content;
+  }
+
+  #errorMsg {
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
 }

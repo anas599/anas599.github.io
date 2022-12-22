@@ -13,7 +13,7 @@
 
 <body>
     <header>
-                <!----------- dropdown menu ----------->
+        <!----------- dropdown menu ----------->
 
         <div class="topnav">
             <a href="#home" class="active">Welcome</a>
@@ -36,7 +36,7 @@
         </div>
 
         <!----------- dropdown menu ----------->
-        <section class="head1">
+        <section class="head1" id="mainHead">
             <h1>Hey there I'm Anas</h1>
             <h1 class="h12">I’m a software developer</h1>
             <p class="para">I can help you build a product , feature or website Look through some of my work and
@@ -44,9 +44,9 @@
                 If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
             <ul class="social">
                 <li><a href="https://facebook.com/anas599/"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/anas599"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://github.com/anas599"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://instagram.com/anas.sufyan93/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/anas599"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/anas599"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://instagram.com/anas.sufyan93/"><i class="fa fa-instagram"></i></a></li>
 
             </ul>
 
@@ -55,9 +55,13 @@
             </div>
 
             <h1>My Recent work</h1>
-            <section class="recent-abt">
-                <div class="allw">
-                    <article class="work1">
+            <section>
+
+                <div id="work-container" class="recent-abt">
+                    <!-- this should be empty for the object -->
+                </div>
+
+                <!-- <article class="work1">
                         <div class="snapshot"><img src="./Assets/Snapshoot.png" alt="Image of work"></div>
                         <div>
                             <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
@@ -68,9 +72,9 @@
                             <li class="l3"><a>JavaScript</a></li>
                             <li class="l4"><a>HTML</a></li>
                         </ul>
-                    </article><button type="button" class="see">See projects</button>
-                </div>
-                <div class="allw">
+                    </article><button type="button" class="see">See projects</button> -->
+
+                <!-- <div class="allw">
                     <article class="work1">
                         <div class="snapshot"><img src="./Assets/Snapshoot.png" alt="Image of work"></div>
                         <div>
@@ -139,8 +143,12 @@
                             <li class="l4"><a>HTML </a></li>
                         </ul>
                     </article><button type="button" class="see">See projects</button>
-                </div>
+                </div> -->
+
+
             </section>
+
+
             <div>
                 <h1 id="about"></h1>
             </div>
@@ -197,8 +205,8 @@
                         </ul>
                     </article>
                 </div>
-                <!-- under work for responsive -->
             </section>
+
             <div>
                 <h1 id="contact"></h1>
             </div>
@@ -206,24 +214,31 @@
                 <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
                 </p>
                 <section class="contact_form">
-                    <form action="https://formspree.io/f/myyvrwdd" method="POST"><label for="first_name"></label><input
-                            name="first_name" type="text" required placeholder="Full Name" maxlength="30"
-                            minlength="2"><br><label for="email"></label><input name="email" type="email" required
-                            placeholder="Email Address"><label for="message"></label><textarea name="message" cols="30"
-                            rows="5" placeholder="Enter your message here ..." required maxlength="500"
-                            minlength="2"></textarea><br><button type="submit" class="getintouch">Get in touch</button>
-                    </form>
-                </section>
+                <form  action="https://formspree.io/f/myyvrwdd" method="POST"><label for="first_name"></label><input
+                        name="first_name" type="text" required placeholder="Full Name" maxlength="30" minlength="2"><label
+                        for="email"></label><input id="email" name="email" type="email" required placeholder="Email Address"><label
+                        for="message"></label><textarea name="message" cols="30" rows="5" placeholder="Enter your message here ..."
+                        required maxlength="500" minlength="2"></textarea><br><button type="submit" class="getintouch">Get in
+                        touch</button>
+                    <small id="errorMsg"></small>
+                </form>
+             </section>
             </section>
             <footer class="social_form">
                 <li><a href="https://facebook.com/anas599/"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://twitter.com/anas599"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://github.com/anas599"><i class="fa fa-github"></i></a></li>
                 <li><a href="https://instagram.com/anas.sufyan93/"><i class="fa fa-instagram"></i></a></li>
-                </footer>
-                    <h2 class="eaddress">anas599@yahoo.com</h2>
+            </footer>
+            <h2 class="eaddress">anas599@yahoo.com</h2>
         </section>
-        <script src="./jsfile.js"></script>
+        <article class="popUp">
+            <button class="close-popUp">X</button>
+        </article>
+
+        <script src="./Assets/jsfile.js"></script>
+        <script src="./Assets/popUpObject.js"></script>
+        <script src="./Assets/form-validation.js"></script>
 </body>
 
 </html>
