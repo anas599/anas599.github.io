@@ -407,13 +407,14 @@ body {
   font-size: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: 10px;
 }
 
 .seeLivebtn::before {
   /* width: 20vw; */
   content: "\f09b";
-  font-family: "FontAwesome";
+  font-family: "FontAwesome", Impact, 'Arial Narrow Bold', sans-serif;
 }
 
 .seeLivebtn {
@@ -434,7 +435,7 @@ body {
 .seeSourcebtn::before {
   /* width: 20vw; */
   content: "\f08e";
-  font-family: "FontAwesome";
+  font-family: "FontAwesome", Impact, 'Arial Narrow Bold', sans-serif;
 }
 
 .seeSourcebtn {
@@ -450,6 +451,7 @@ body {
   color: rgb(255, 255, 255);
   border-radius: 5px;
   border: none;
+  margin-left: 2px;
 }
 
 .noUline {
@@ -700,6 +702,7 @@ textarea:focus {
   justify-content: flex-start;
   align-items: flex-start;
   padding-top: 10vh;
+  transition: ease-in;
 }
 
 .topnav a.icon {
@@ -1051,9 +1054,9 @@ textarea:focus {
     font-size: 12px;
   }
 
-  .lang {
+  /* .lang {
     grid-area: lang;
-  }
+  } */
 
   .buttonsLive {
     grid-area: buttonsLive;
@@ -1071,7 +1074,6 @@ textarea:focus {
     padding-bottom: 10px;
     padding-top: 50px;
     width: 33vw;
-    height: fit-content;
     justify-content: center;
 
     /* height: 50vh; */
@@ -1112,7 +1114,10 @@ textarea:focus {
     font-size: 20px;
   }
 
-  .languagesPopW {
-
+  .l1,
+  .l2,
+  .l3,
+  .l4 {
+    inline-size: auto;
   }
 }
