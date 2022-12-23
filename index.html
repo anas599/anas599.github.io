@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <!----------- dropdown menu ----------->
+                <!----------- dropdown menu ----------->
 
         <div class="topnav">
             <a href="#home" class="active">Welcome</a>
@@ -44,9 +44,9 @@
                 If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
             <ul class="social">
                 <li><a href="https://facebook.com/anas599/"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/anas599"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://github.com/anas599"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://instagram.com/anas.sufyan93/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/anas599"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/anas599"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://instagram.com/anas.sufyan93/"><i class="fa fa-instagram"></i></a></li>
 
             </ul>
 
@@ -55,13 +55,13 @@
             </div>
 
             <h1>My Recent work</h1>
-            <section>
+            <section >
 
-                <div id="work-container" class="recent-abt">
-                    <!-- this should be empty for the object -->
-                </div>
-
-                <!-- <article class="work1">
+                    <div id="work-container" class="recent-abt">
+                        <!-- this should be empty for the object -->
+                    </div>
+                    
+                    <!-- <article class="work1">
                         <div class="snapshot"><img src="./Assets/Snapshoot.png" alt="Image of work"></div>
                         <div>
                             <h3 class="multi">Multi-Post Stories Gain+Glory</h3>
@@ -73,7 +73,7 @@
                             <li class="l4"><a>HTML</a></li>
                         </ul>
                     </article><button type="button" class="see">See projects</button> -->
-
+                
                 <!-- <div class="allw">
                     <article class="work1">
                         <div class="snapshot"><img src="./Assets/Snapshoot.png" alt="Image of work"></div>
@@ -144,10 +144,10 @@
                         </ul>
                     </article><button type="button" class="see">See projects</button>
                 </div> -->
-
+                
 
             </section>
-
+            
 
             <div>
                 <h1 id="about"></h1>
@@ -213,40 +213,38 @@
             <section class="endp" id="#contact">
                 <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
                 </p>
-                <section class="contact_form">
-                <form  action="https://formspree.io/f/myyvrwdd" method="POST">
-                    <label for="first_name">
-                    </label>
-                    <input  class="formInput" id="name" name="first_name" type="text" required placeholder="Full Name" maxlength="30" minlength="2">
-                    <label for="email">
-                    </label><input  class="formInput" id="email" name="email" type="email" required placeholder="Email Address">
-                    <label for="message">
-                    </label>
-                    <textarea  class="formInput" id="message" name="message" cols="30" rows="5" placeholder="Enter your message here ..."
-                    required maxlength="500" minlength="2">
-                    </textarea>
-                    <br>
-                    <button type="submit" class="getintouch">Get in touch</button>
-                    <small id="errorMsg"></small>
-                </form>
-             </section>
+                <section id="contact_form">
+                    <form action="https://formspree.io/f/myyvrwdd" method="POST">
+                <label for="first_name"></label>
+                <input name="first_name" type="text" required placeholder="Full Name" maxlength="30"
+                minlength="2">
+                <br>
+                <label for="email" ></label>
+                <input name="email" type="email" requiredpattern="[a-z]+@[a-z]+\.[a-z]{2,3}" placeholder="Email Address">
+                <label for="message"></label>
+                <textarea name="message" cols="30" rows="5" placeholder="Enter your message here ..." required maxlength="500"
+                minlength="2"></textarea>
+                <br>
+                <button type="submit" class="getintouch">Get in touch</button>
+                    </form>
+                </section>
             </section>
             <footer class="social_form">
                 <li><a href="https://facebook.com/anas599/"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://twitter.com/anas599"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://github.com/anas599"><i class="fa fa-github"></i></a></li>
                 <li><a href="https://instagram.com/anas.sufyan93/"><i class="fa fa-instagram"></i></a></li>
-            </footer>
-            <h2 class="eaddress">anas599@yahoo.com</h2>
+                </footer>
+                    <h2 class="eaddress">anas599@yahoo.com</h2>
         </section>
-        <article class="popUp">
-            <button class="close-popUp">X</button>
-        </article>
+                                <article class="popUp">
+                                    <button class="close-popUp"></button>
+                                </article>
 
         <script src="./Assets/jsfile.js"></script>
         <script src="./Assets/popUpObject.js"></script>
-        <script src="./Assets/form-validation.js"></script>
         <script src="./Assets/localStorage.js"></script>
 </body>
-
 </html>
+
+<!-- id='see-project-btnPop ' class='see2 fa fa-arrow-circle-up' style='width: 150' -->

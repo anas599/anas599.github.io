@@ -152,7 +152,10 @@ body {
 } */
 
 /* test for popup */
+
 .fa {
+  display: flex;
+  flex-direction: row-reverse;
   padding: 20px;
   font-size: 30px;
   width: 5px;
@@ -160,6 +163,11 @@ body {
   text-decoration: none;
   border-radius: 50%;
   color: #505f79;
+}
+
+#see-project-btnPop {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .work1 {
@@ -176,6 +184,17 @@ body {
   flex-direction: row;
   padding: 0%;
   max-width: 350px;
+  margin: 10px;
+
+  /* padding-left: 8px; */
+}
+
+.languagesPopW {
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+  max-width: 350px;
+  margin: 10px;
 
   /* padding-left: 8px; */
 }
@@ -216,11 +235,12 @@ body {
 }
 
 .popUp {
-  justify-content: flex-start;
   left: 50%;
   top: 50%;
   transform: translate(-49%, -49%);
   align-items: center;
+  justify-content: center;
+  justify-items: center;
   position: fixed;
   background: rgb(255, 255, 255);
   display: none;
@@ -230,8 +250,6 @@ body {
   z-index: 1;
   border: #d6d6d6 solid 1px;
   border-radius: 15px;
-
-  /* justify-content: center; */
   align-content: stretch;
 }
 
@@ -318,9 +336,9 @@ body {
   top: 50%;
   background-color: #36b37f;
   border: none;
-  padding: 10px;
   padding-block-end: 10px;
   font-size: 15px;
+  padding: 10px;
   padding-top: 8px;
   border-radius: 7px;
   height: 50px;
@@ -386,8 +404,58 @@ body {
 }
 
 #buttonsLive {
+  font-size: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+
+.seeLivebtn::before {
+  /* width: 20vw; */
+  content: "\f09b";
+  font-family: "FontAwesome", Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.seeLivebtn {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 38vw;
+  height: 6vh;
+  font-size: 22px;
+  justify-content: space-evenly;
+  align-content: center;
+  background-color: #36b37f;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+}
+
+.seeSourcebtn::before {
+  /* width: 20vw; */
+  content: "\f08e";
+  font-family: "FontAwesome", Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.seeSourcebtn {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 42vw;
+  height: 6vh;
+  font-size: 22px;
+  justify-content: space-evenly;
+  align-content: center;
+  background-color: #36b37f;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+  margin-left: 2px;
+}
+
+.noUline {
+  text-decoration: none;
 }
 
 .getres {
@@ -588,7 +656,7 @@ textarea:focus {
   transition: 0.7s;
 }
 
-.contact_form {
+#contact_form {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -634,6 +702,7 @@ textarea:focus {
   justify-content: flex-start;
   align-items: flex-start;
   padding-top: 10vh;
+  transition: ease-in;
 }
 
 .topnav a.icon {
@@ -647,14 +716,37 @@ textarea:focus {
   display: none;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
+.projectImage {
+  width: 80vw;
+  border-radius: 10px;
+  justify-content: center;
+
+  /* margin: 15px; */
 }
 
-#errorMsg {
+.p {
+  margin: 20px;
+  text-align: left;
+}
+
+.see2 {
+  color: azure;
+  top: 50%;
+  background-color: #36b37f;
+  border: none;
+  padding-block-end: 10px;
   font-size: 20px;
-  font-weight: 300;
+  padding: 10px;
+  padding-top: 8px;
+  border-radius: 7px;
+  height: 50px;
+  width: 40vw;
+}
+
+.h33 {
+  text-align: left;
+  margin: 20px;
+  font-size: 30px;
 }
 
 @media only screen and (min-width: 770px) {
@@ -781,9 +873,13 @@ form {
     transition-duration: 0.2s;
   }
 
-  #imagePopUp {
+  /* #imagePopUp {
     width: 80vw;
     max-width: 70%;
+  } */
+  .imagePopUp {
+    display: flex;
+    width: 500px;
   }
 
   .lang {
@@ -846,7 +942,7 @@ form {
     width: 550px;
   }
 
-  .contact_form {
+  #contact_form {
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -919,14 +1015,110 @@ form {
     padding-inline-start: 30px;
   }
 
-  form {
-    display: inline-block;
-    width: fit-content;
+  .popUp {
+    display: none;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0 0;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imageCloseBtn imageCloseBtn imageCloseBtn"
+      "imageCloseBtn imageCloseBtn imageCloseBtn"
+      "rest rest rest";
+    justify-items: center;
+    width: 35vw;
+    height: 90vh;
   }
 
-  #errorMsg {
+  .imageCloseBtn {
+    grid-area: imageCloseBtn;
+    align-items: baseline;
+    justify-items: end;
+  }
+
+  .rest {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 0fr 2.3fr;
+    gap: 0 0;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "h3 h3 buttonsLive"
+      "lang lang ."
+      "p p p";
+    grid-area: rest;
+  }
+
+  .h3 {
+    grid-area: h3;
+    font-size: 12px;
+  }
+
+  /* .lang {
+    grid-area: lang;
+  } */
+
+  .buttonsLive {
+    grid-area: buttonsLive;
+    font-size: 12px;
+    margin-right: 15px;
+  }
+
+  .p {
+    grid-area: p;
+    font-size: 10px;
+    margin: 20px;
+  }
+
+  .projectImage {
+    padding-bottom: 10px;
+    padding-top: 30px;
+    width: 32vw;
+    justify-content: center;
+    margin: 20px;
+
+    /* height: 50vh; */
+  }
+
+  #see-project-btnPop {
     display: flex;
-    padding-left: 30px;
-    padding-top: 10px;
+    flex-direction: row-reverse;
+  }
+
+  .see2 {
+    color: azure;
+    top: 50%;
+    background-color: #36b37f;
+    border: none;
+    padding-block-end: 10px;
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 8px;
+    border-radius: 7px;
+    height: 40px;
+    width: 120px;
+  }
+
+  .seeLivebtn {
+    width: 80px;
+    height: 33px;
+    font-size: 12px;
+  }
+
+  .seeSourcebtn {
+    width: 90px;
+    height: 33px;
+    font-size: 12px;
+  }
+
+  .h33 {
+    font-size: 20px;
+  }
+
+  .l1,
+  .l2,
+  .l3,
+  .l4 {
+    inline-size: auto;
   }
 }

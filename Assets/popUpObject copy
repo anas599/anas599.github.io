@@ -1,3 +1,4 @@
+const width = window.innerWidth;
 /* eslint-disable no-unused-vars */
 const projectsInfo = [
   {
