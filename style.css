@@ -408,7 +408,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 10px;
+  margin-bottom: 15px;
 }
 
 .seeLivebtn::before {
@@ -1027,7 +1027,7 @@ textarea:focus {
       "rest rest rest";
     justify-items: center;
     width: 35vw;
-    height: 85vh;
+    height: 90vh;
   }
 
   .imageCloseBtn {
@@ -1061,7 +1061,7 @@ textarea:focus {
   .buttonsLive {
     grid-area: buttonsLive;
     font-size: 12px;
-    margin-right: 20px;
+    margin-right:15px;
   }
 
   .p {
@@ -1072,10 +1072,10 @@ textarea:focus {
 
   .projectImage {
     padding-bottom: 10px;
-    padding-top: 50px;
-    width: 33vw;
+    padding-top: 30px;
+    width: 32vw;
     justify-content: center;
-
+    margin: 20px;
     /* height: 50vh; */
   }
 
