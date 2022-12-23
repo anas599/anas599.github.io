@@ -189,6 +189,16 @@ body {
   /* padding-left: 8px; */
 }
 
+.languagesPopW {
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+  max-width: 350px;
+  margin: 10px;
+
+  /* padding-left: 8px; */
+}
+
 .lang2 {
   display: flex;
   flex-wrap: wrap;
@@ -236,7 +246,7 @@ body {
   display: none;
   flex-direction: column;
   width: 90vw;
-  height: 85vh;
+  height: 90vh;
   z-index: 1;
   border: #d6d6d6 solid 1px;
   border-radius: 15px;
@@ -398,6 +408,52 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.seeLivebtn::before {
+  /* width: 20vw; */
+  content: "\f09b";
+  font-family: "FontAwesome";
+}
+
+.seeLivebtn {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 38vw;
+  height: 6vh;
+  font-size: 22px;
+  justify-content: space-evenly;
+  align-content: center;
+  background-color: #36b37f;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+}
+
+.seeSourcebtn::before {
+  /* width: 20vw; */
+  content: "\f08e";
+  font-family: "FontAwesome";
+}
+
+.seeSourcebtn {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 42vw;
+  height: 6vh;
+  font-size: 22px;
+  justify-content: space-evenly;
+  align-content: center;
+  background-color: #36b37f;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+}
+
+.noUline {
+  text-decoration: none;
 }
 
 .getres {
@@ -666,7 +722,8 @@ textarea:focus {
 }
 
 .p {
-  margin: 10px;
+  margin: 20px;
+  text-align: left;
 }
 
 .see2 {
@@ -675,12 +732,18 @@ textarea:focus {
   background-color: #36b37f;
   border: none;
   padding-block-end: 10px;
-  font-size: 15px;
+  font-size: 20px;
   padding: 10px;
   padding-top: 8px;
   border-radius: 7px;
   height: 50px;
   width: 40vw;
+}
+
+.h33 {
+  text-align: left;
+  margin: 20px;
+  font-size: 30px;
 }
 
 @media only screen and (min-width: 770px) {
@@ -960,8 +1023,8 @@ textarea:focus {
       "imageCloseBtn imageCloseBtn imageCloseBtn"
       "rest rest rest";
     justify-items: center;
-    width: 50vw;
-    height: 85vh;
+    width: 35vw;
+    height: 80vh;
   }
 
   .imageCloseBtn {
@@ -986,7 +1049,6 @@ textarea:focus {
   .h3 {
     grid-area: h3;
     font-size: 12px;
-    border: #008552 1px solid;
   }
 
   .lang {
@@ -996,6 +1058,7 @@ textarea:focus {
   .buttonsLive {
     grid-area: buttonsLive;
     font-size: 12px;
+    margin-right: 20px;
   }
 
   .p {
@@ -1007,7 +1070,7 @@ textarea:focus {
   .projectImage {
     padding-bottom: 10px;
     padding-top: 50px;
-    width: 48vw;
+    width: 33vw;
     height: fit-content;
     justify-content: center;
 
@@ -1033,10 +1096,23 @@ textarea:focus {
     width: 120px;
   }
 
-  #see-project-git {
-    content: "f09b";
-    background-color: #008552;
+  .seeLivebtn {
+    width: 80px;
+    height: 33px;
+    font-size: 12px;
   }
 
-  /* --------dropdown menu---------- */
+  .seeSourcebtn {
+    width: 90px;
+    height: 33px;
+    font-size: 12px;
+  }
+
+  .h33 {
+    font-size: 20px;
+  }
+
+  .languagesPopW {
+
+  }
 }
