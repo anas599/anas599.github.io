@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 **[Anas's Desktop Porfolio]** is a mobile and Desktop responsive website to demonstrate my knowledge in HTML and CSS
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="HTML/CSS and Javascript"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -97,9 +97,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[When clicking on the project, a pop-up window will appear]**
+- **[When clicking on three bars in mobile version a nav menu will]**
+- **[scrolling down or up will hide or show sections using transitions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,11 +209,6 @@ Example:
 - Twitter: [@anas599](https://twitter.com/anas599)
 - LinkedIn: [anas1993](https://linkedin.com/in/anas1993)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -241,7 +236,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support <a name="If you like the design feel free to contact me for any help or inquiries "></a>
 
 > Write a message to encourage readers to support your project
 
