@@ -72,14 +72,14 @@ const projectsCont = document.getElementById('work-container');
 projectsCont.innerHTML = projectsInfo
   .map(
     (project) => `
-<article class="allw">
+<article class="allw scroll">
   <img src='${project.featuredImage}'>
   <h3>${project.name}</h3>
   <ul class='lang'>${project.technologies
     .map((tech) => `<li class='l1'>${tech}</li>`)
     .join('')}</ul>
-  <button id='see-project-btn' class='see' onclick='popUpFun()'>See Project</button>
-</article>`, // class='project${i}
+  <button id='see-project-btn' class='see ' onclick='popUpFun()'>See Project</button>
+</article>`,
   )
   .join('');
 
@@ -104,7 +104,7 @@ function closePopUp1() {
 
 popUp.innerHTML = `
 <div id="imageCloseBtn">
-<button class="close-popUp fa fa-times"   onclick='closePopUp1()'></button>
+<button class="close-popUp fa fa-times "   onclick='closePopUp1()'></button>
 <img class="projectImage" src='${projectsInfo[1].featuredImageDesktop}'>
 </div>
 
