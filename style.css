@@ -453,7 +453,10 @@ body {
   border: none;
   margin-left: 2px;
 }
-
+#awbooks{
+  width: 350px;
+  border-radius: 10px;
+}
 .noUline {
   text-decoration: none;
 }
@@ -886,17 +889,13 @@ textarea:focus {
     transition-duration: 0.2s;
   }
 
-  /* #imagePopUp {
-    width: 80vw;
-    max-width: 70%;
-  } */
   .imagePopUp {
     display: flex;
     width: 500px;
   }
 
   .lang {
-    padding-right: 8px;
+    /* padding-right: 8px; */
   }
 
   .lr {
