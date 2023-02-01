@@ -225,8 +225,6 @@ body {
   margin-inline-start: 10px;
   font-size: 12px;
   padding: 10px;
-
-  /* padding-top: 8px; */
   inline-size: 35%;
   white-space: nowrap;
   display: inline-flex;
@@ -357,8 +355,6 @@ body {
   border-radius: 7px;
   height: 50px;
   width: fit-content;
-
-  /* padding: 10px; */
 }
 
 .close-popUp {
@@ -366,8 +362,7 @@ body {
   background-color: rgba(255, 255, 255, 0);
   border: none;
   position: absolute;
-
-  /* padding-left: 300px; */
+  transition: all 0.3s ease-in-out;
 }
 
 #imagePopUp {
@@ -392,7 +387,7 @@ body {
 }
 
 .see:hover {
-  background-color: #36b37f;
+  background-color: #00834c;
   transition: 0.7s;
   box-shadow:
     0 4px 8px 0 rgba(49, 181, 9, 0.2),
@@ -413,7 +408,6 @@ body {
 }
 
 .seeLivebtn::before {
-  /* width: 20vw; */
   content: "\f09b";
   font-family: "FontAwesome", Impact, 'Arial Narrow Bold', sans-serif;
 }
@@ -454,19 +448,34 @@ body {
   border: none;
   margin-left: 2px;
 }
-#awbooks{
+
+.seeSourcebtn:hover {
+  background-color: #091e42;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.seeLivebtn:hover {
+  background-color: #091e42;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+#awbooks {
   width: 350px;
   border-radius: 10px;
 }
+
 .noUline {
   text-decoration: none;
 }
+
 .glow {
-  text-shadow: 0px 0px 5px #0fd72a;
+  text-shadow: 0 0 5px #0fd72a;
+
   /* border: 2px solid red; */
   border-radius: 100%;
   margin: 5px;
 }
+
 .getres {
   color: azure;
   background-color: #36b37f;
@@ -509,11 +518,11 @@ body {
   margin-bottom: 20%;
   padding-block-end: 5%;
   max-width: 350px;
-  /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
-  -webkit-box-shadow: 0px 0px 20px 1px #419311;
-  box-shadow: 0px 0px 20px 1px #388b08;
-}
 
+  /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+  -webkit-box-shadow: 0 0 20px 1px #419311;
+  box-shadow: 0 0 20px 1px #388b08;
+}
 
 .allw2 {
   background-color: #ebf0ee;
@@ -1075,10 +1084,6 @@ textarea:focus {
     font-size: 12px;
   }
 
-  /* .lang {
-    grid-area: lang;
-  } */
-
   .buttonsLive {
     grid-area: buttonsLive;
     font-size: 12px;
@@ -1097,8 +1102,6 @@ textarea:focus {
     width: 32vw;
     justify-content: center;
     margin: 20px;
-
-    /* height: 50vh; */
   }
 
   #see-project-btnPop {
@@ -1143,9 +1146,18 @@ textarea:focus {
     inline-size: auto;
   }
 }
-a:focus{
+
+a:focus {
   color: #36b37f;
 }
-a:hover{
+
+a:hover {
   color: #36b37f;
+}
+
+#navButton:hover {
+  color: #36b37f;
+  border: 2px solid #36b37f;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
