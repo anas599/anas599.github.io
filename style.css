@@ -470,8 +470,6 @@ body {
 
 .glow {
   text-shadow: 0 0 5px #0fd72a;
-
-  /* border: 2px solid red; */
   border-radius: 100%;
   margin: 5px;
 }
@@ -518,8 +516,6 @@ body {
   margin-bottom: 20%;
   padding-block-end: 5%;
   max-width: 350px;
-
-  /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
   -webkit-box-shadow: 0 0 20px 1px #419311;
   box-shadow: 0 0 20px 1px #388b08;
 }
@@ -912,10 +908,6 @@ textarea:focus {
     width: 500px;
   }
 
-  .lang {
-    /* padding-right: 8px; */
-  }
-
   .lr {
     width: fit-content;
     display: grid;
@@ -931,8 +923,6 @@ textarea:focus {
     padding-block-end: 10px;
     font-size: 14px;
     padding-top: 8px;
-
-    /* inline-size: 20%; */
     white-space: nowrap;
     padding-inline: 8px;
   }
@@ -988,10 +978,6 @@ textarea:focus {
   .mnu {
     display: none;
   }
-
-  /* .logo {
-    display: none;
-  } */
 
   .snapshot {
     width: 100%;
