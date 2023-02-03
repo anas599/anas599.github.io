@@ -84,11 +84,13 @@ projectsCont.innerHTML = projectsInfo
 const seeProjectBtn = document.getElementById('see-project-btn');
 const popUp = document.querySelector('.popUp');
 const blurHead = document.getElementById('mainHead');
+const navDt = document.getElementById('topNavDTID');
 
 function popUpFun(index) {
   // eslint-disable-next-line no-cond-assign, no-constant-condition
   if ((popUp.style.display = 'none')) {
     popUp.style.display = 'grid';
+    navDt.style.filter = 'blur(20px) contrast(50%)';
   }
   blurHead.style.filter = 'blur(20px) contrast(50%)';
   popUp.innerHTML = `
@@ -123,5 +125,6 @@ function closePopUp1() {
   if ((popUp.style.display = 'flex')) {
     popUp.style.display = 'none';
     blurHead.style.filter = 'none';
+    navDt.style.filter = 'none';
   }
 }

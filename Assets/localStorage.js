@@ -3,8 +3,7 @@ const emailLc = document.getElementById('email');
 const msgLc = document.getElementById('message');
 const ev = document.getElementsByClassName('formInput');
 
-// eslint-disable-next-line no-plusplus
-for (let i = 0; i < ev.length; i++) {
+for (let i = 0; i < ev.length; i += 1) {
   ev[i].addEventListener('input', () => {
     localStorage.setItem(
       'formData',
@@ -17,9 +16,9 @@ for (let i = 0; i < ev.length; i++) {
   });
 }
 
-const retData = JSON.parse(localStorage.formData);
+const retData = localStorage.formData ? JSON.parse(localStorage.formData) : {};
 window.onload = () => {
-  nameLc.value = retData.name;
-  emailLc.value = retData.email;
-  msgLc.value = retData.message;
+  if (nameLc) nameLc.value = retData.name || '';
+  if (emailLc) emailLc.value = retData.email || '';
+  if (msgLc) msgLc.value = retData.message || '';
 };
