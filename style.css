@@ -19,6 +19,21 @@ html {
   padding-right: 5px;
 }
 
+#darkMob {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+
+  /* width: 50px; */
+  font-size: 20px;
+}
+
+#darkMob::before {
+  content: "\f186";
+  font-family: "FontAwesome", Impact, 'Arial Narrow Bold', sans-serif;
+  padding-right: 5px;
+}
+
 .head1 {
   display: flex;
   flex-direction: column;
