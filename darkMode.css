@@ -1,27 +1,27 @@
 html {
   margin: 0;
   scroll-behavior: smooth;
-  background: radial-gradient(ellipse at center, rgba(17, 47, 116, 0.052) 0%, rgba(0, 0, 0, 0) 100%);
+  background-color: black;
+  color: white;
 }
 
 #darkMode {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border: none;
-
-  /* width: 50px; */
   font-size: 20px;
+  border-radius: 0;
 }
 
 #darkMode::before {
-  content: "\f186";
+  content: "\f185";
   font-family: "FontAwesome", Impact, 'Arial Narrow Bold', sans-serif;
   padding-right: 5px;
 }
 
 #darkMob {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border: none;
 
   /* width: 50px; */
@@ -29,7 +29,7 @@ html {
 }
 
 #darkMob::before {
-  content: "\f186";
+  content: "\f185";
   font-family: "FontAwesome", Impact, 'Arial Narrow Bold', sans-serif;
   padding-right: 5px;
 }
@@ -51,13 +51,13 @@ html {
 }
 
 h2 {
-  color: rgb(27, 161, 45);
+  color: rgb(255, 255, 255);
   font-size: 40px;
   text-shadow: 2px 0 2px;
 }
 
 .h12 {
-  color: rgb(27, 161, 45);
+  color: rgb(255, 255, 255);
   text-shadow: 2px 0 2px;
 }
 
@@ -68,7 +68,7 @@ h1 {
   font-size: 48px;
   line-height: 52px;
   text-align: center;
-  color: #172b4d;
+  color: #b1caf5;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -122,7 +122,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-weight: 600;
-  color: #3a4a42;
+  color: #fff;
   padding: 14px 16px;
   font-size: 32px;
   display: block;
@@ -133,7 +133,7 @@ body {
 }
 
 .para {
-  color: rgb(59, 55, 55);
+  color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -165,7 +165,7 @@ body {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  color: #505f79;
+  color: #fff;
 }
 
 .fa:active {
@@ -245,7 +245,7 @@ body {
   justify-content: center;
   justify-items: center;
   position: fixed;
-  background: rgb(255, 255, 255);
+  background: rgb(44, 44, 44);
   display: none;
   flex-direction: column;
   width: 90vw;
@@ -519,18 +519,19 @@ body {
   align-items: center;
   justify-content: center;
   border: #ebf0ee 3px solid;
-  background-color: white;
+  background-color: #242424;
   border-radius: 10px;
   width: 98%;
   padding-block-start: 10px;
   margin-bottom: 20%;
   padding-block-end: 5%;
   max-width: 350px;
-  box-shadow: 10px 10px 11px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 11px 0 rgba(255, 255, 255, 0.5);
 }
 
 .allw2 {
-  background-color: #ebf0ee;
+  background-color: #242424;
+  box-shadow: 0 0 11px 5px rgb(255 255 255 / 50%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -951,6 +952,7 @@ textarea:focus {
   textarea {
     height: 114px;
     width: 550px;
+    background-color: black;
   }
 
   .endp h3 {
@@ -958,6 +960,7 @@ textarea:focus {
   }
 
   .endp p {
+    color: #b1caf5;
     font-size: 30px;
     max-width: 30%;
   }
@@ -967,6 +970,9 @@ textarea:focus {
     height: 48px;
     padding: 0;
     width: 550px;
+    color: white;
+    background-color: black;
+    border: 1px solid #60c095;
   }
 
   #contact_form {
@@ -1022,7 +1028,7 @@ textarea:focus {
     position: fixed;
     border-bottom: 1.5px solid;
     display: flex;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -1059,6 +1065,7 @@ textarea:focus {
     justify-items: center;
     width: 35vw;
     height: 90vh;
+    background-color: black;
   }
 
   .imageCloseBtn {
@@ -1145,10 +1152,6 @@ textarea:focus {
   .l3,
   .l4 {
     inline-size: auto;
-  }
-
-  #darkMode {
-    font-size: 25px;
   }
 }
 
