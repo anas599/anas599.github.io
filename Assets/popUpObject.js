@@ -1,6 +1,38 @@
 /* eslint-disable no-unused-vars */
 const projectsInfo = [
   {
+    name: 'Leaderboard for games',
+    namePop: 'Leaderboard for games',
+    description:
+      'Leaderboard, a dynamic and interactive web project built with the latest web technologies including Webpack, JavaScript, HTML, and CSS. Our platform provides real-time ranking and score tracking for various competitions and games. With its user-friendly interface, you can easily keep track of your progress and compete with other players to reach the top of the leaderboard. Experience fast and seamless navigation, stunning graphics, and exciting gameplay with Leaderboard',
+    featuredImage: './Assets/Leaderboard/leaderboardsnap.png',
+    featuredImageDesktop: './Assets/Leaderboard/leaderboardsnap.png',
+    technologies: ['WebPack', 'CSS', 'JavaScript', 'HTML'],
+    liveLink: 'https://anas599.github.io/Leaderboard/dist/',
+    sourceLink: 'https://github.com/anas599/Leaderboard',
+  },
+  {
+    name: 'Calculator',
+    namePop: 'Calculator',
+    description:
+      'Calculator - A simple and efficient calculator built using React. This project provides a clean and user-friendly interface for performing basic mathematical operations like addition, subtraction, multiplication, and division, as well as advanced features like percentage and square root calculations.',
+    featuredImage: './Assets/Calculator/calculator.png',
+    featuredImageDesktop: './Assets/Calculator/calculator.png',
+    technologies: ['React', 'CSS', 'JavaScript', 'HTML'],
+    liveLink: 'http://anasdev.com/calculator/',
+    sourceLink: 'https://github.com/anas599/calculator',
+  },
+  {
+    name: 'Leaderboard for games',
+    namePop: 'Leaderboard for games',
+    description: `
+    The "tv maze" project is a web application built with JavaScript, HTML, and CSS and uses Webpack as its build tool. The project makes API calls to fetch movie information and allows users to add likes and comments, which are then stored back to the API. The application has the ability to retrieve this information, providing a dynamic and interactiv`,
+    featuredImage: './Assets/TV-Maze/tv-maze.png',
+    featuredImageDesktop: './Assets/TV-Maze/tv-maze.png',
+    technologies: ['WebPack', 'CSS', 'JavaScript', 'HTML'],
+    liveLink: 'https://anas599.github.io/Leaderboard/dist/',
+    sourceLink: 'https://github.com/anas599/Leaderboard',
+  }, {
     name: 'Awsome Books',
     namePop: 'Awsome Books',
     description:
@@ -34,39 +66,7 @@ const projectsInfo = [
     liveLink: 'https://anas599.github.io/Capstone-project',
     sourceLink: 'https://github.com/anas599/Capstone-project',
   },
-  {
-    name: 'Leaderboard for games',
-    namePop: 'Leaderboard for games',
-    description:
-      'Leaderboard, a dynamic and interactive web project built with the latest web technologies including Webpack, JavaScript, HTML, and CSS. Our platform provides real-time ranking and score tracking for various competitions and games. With its user-friendly interface, you can easily keep track of your progress and compete with other players to reach the top of the leaderboard. Experience fast and seamless navigation, stunning graphics, and exciting gameplay with Leaderboard',
-    featuredImage: './Assets/Leaderboard/leaderboardsnap.png',
-    featuredImageDesktop: './Assets/Leaderboard/leaderboardsnap.png',
-    technologies: ['WebPack', 'CSS', 'JavaScript', 'HTML'],
-    liveLink: 'https://anas599.github.io/Leaderboard/dist/',
-    sourceLink: 'https://github.com/anas599/Leaderboard',
-  },
-  {
-    name: 'Leaderboard for games',
-    namePop: 'Leaderboard for games',
-    description:
-      'Leaderboard, a dynamic and interactive web project built with the latest web technologies including Webpack, JavaScript, HTML, and CSS. Our platform provides real-time ranking and score tracking for various competitions and games. With its user-friendly interface, you can easily keep track of your progress and compete with other players to reach the top of the leaderboard. Experience fast and seamless navigation, stunning graphics, and exciting gameplay with Leaderboard',
-    featuredImage: './Assets/Leaderboard/leaderboardsnap.png',
-    featuredImageDesktop: './Assets/Leaderboard/leaderboardsnap.png',
-    technologies: ['WebPack', 'CSS', 'JavaScript', 'HTML'],
-    liveLink: 'https://anas599.github.io/Leaderboard/dist/',
-    sourceLink: 'https://github.com/anas599/Leaderboard',
-  },
-  {
-    name: 'Leaderboard for games',
-    namePop: 'Leaderboard for games',
-    description:
-      'Leaderboard, a dynamic and interactive web project built with the latest web technologies including Webpack, JavaScript, HTML, and CSS. Our platform provides real-time ranking and score tracking for various competitions and games. With its user-friendly interface, you can easily keep track of your progress and compete with other players to reach the top of the leaderboard. Experience fast and seamless navigation, stunning graphics, and exciting gameplay with Leaderboard',
-    featuredImage: './Assets/Leaderboard/leaderboardsnap.png',
-    featuredImageDesktop: './Assets/Leaderboard/leaderboardsnap.png',
-    technologies: ['WebPack', 'CSS', 'JavaScript', 'HTML'],
-    liveLink: 'https://anas599.github.io/Leaderboard/dist/',
-    sourceLink: 'https://github.com/anas599/Leaderboard',
-  },
+
 ];
 
 const projectsCont = document.getElementById('work-container');
