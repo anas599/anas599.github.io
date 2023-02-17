@@ -49,10 +49,12 @@ html {
   width: 100%;
   filter: none;
 }
-#welcome{
+
+#welcome {
   display: flex;
   align-items: center;
 }
+
 h2 {
   color: rgb(27, 161, 45);
   font-size: 40px;
@@ -117,6 +119,7 @@ body {
   overflow: hidden;
   position: relative;
   justify-content: space-between;
+
   /* align-items: center; */
 }
 
