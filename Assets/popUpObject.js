@@ -30,7 +30,7 @@ const projectsInfo = [
     featuredImage: './Assets/TV-Maze/tv-maze.png',
     featuredImageDesktop: './Assets/TV-Maze/tv-maze.png',
     technologies: ['WebPack', 'CSS', 'JavaScript', 'HTML'],
-    liveLink: 'https://http://anasdev.com/TV-Maze/dist/',
+    liveLink: 'https://anasdev.com/TV-Maze/dist/',
     sourceLink: 'https://github.com/anas599/TV-Maze',
   }, {
     name: 'Awsome Books',
