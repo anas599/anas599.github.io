@@ -23,15 +23,15 @@ const projectsInfo = [
     sourceLink: 'https://github.com/anas599/Math-magicians',
   },
   {
-    name: 'Leaderboard for games',
-    namePop: 'Leaderboard for games',
+    name: 'TV-Maze',
+    namePop: 'TV-Maze',
     description: `
     The "tv maze" project is a web application built with JavaScript, HTML, and CSS and uses Webpack as its build tool. The project makes API calls to fetch movie information and allows users to add likes and comments, which are then stored back to the API. The application has the ability to retrieve this information, providing a dynamic and interactiv`,
     featuredImage: './Assets/TV-Maze/tv-maze.png',
     featuredImageDesktop: './Assets/TV-Maze/tv-maze.png',
     technologies: ['WebPack', 'CSS', 'JavaScript', 'HTML'],
-    liveLink: 'https://anas599.github.io/Leaderboard/dist/',
-    sourceLink: 'https://github.com/anas599/Leaderboard',
+    liveLink: 'https://http://anasdev.com/TV-Maze/dist/',
+    sourceLink: 'https://github.com/anas599/TV-Maze',
   }, {
     name: 'Awsome Books',
     namePop: 'Awsome Books',
