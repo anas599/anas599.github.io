@@ -19,8 +19,8 @@ const projectsInfo = [
     featuredImage: './Assets/Calculator/calculator.png',
     featuredImageDesktop: './Assets/Calculator/calculator.png',
     technologies: ['React', 'CSS', 'JavaScript', 'HTML'],
-    liveLink: 'http://anasdev.com/calculator/',
-    sourceLink: 'https://github.com/anas599/calculator',
+    liveLink: 'http://anasdev.com/Math-magicians/',
+    sourceLink: 'https://github.com/anas599/Math-magicians',
   },
   {
     name: 'Leaderboard for games',
