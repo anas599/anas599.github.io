@@ -16,8 +16,8 @@ const projectsInfo = [
     namePop: "Crypto Prices",
     description:
       "Crypto Prices is a React.js and Redux web application that displays real-time market prices of cryptocurrencies fetched from the Coin Gecko API. Features include price history, currency conversion, and a user-friendly interface.",
-    featuredImage: ".Assets/CryptoPrice/cryptoScreenShot.webp",
-    featuredImageDesktop: ".Assets/CryptoPrice/cryptoScreenShot.webp",
+    featuredImage: "./Assets/CryptoPrice/cryptoScreenShot.webp",
+    featuredImageDesktop: "./Assets/CryptoPrice/cryptoScreenShot.webp",
     technologies: ["React", "CSS", "JavaScript", "Redux"],
     liveLink: "https://crypto-prices-reactjs.netlify.app/",
     sourceLink: "https://github.com/anas599/crypto-price",
