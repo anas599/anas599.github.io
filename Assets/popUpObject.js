@@ -5,8 +5,8 @@ const projectsInfo = [
     namePop: "Space-Travelers",
     description:
       "Space-Travelers a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.",
-    featuredImage: "./Assets/SpaceTravelers/Rockets-ScreenShot.webp",
-    featuredImageDesktop: "./Assets/SpaceTravelers/Rockets-ScreenShot.webp",
+    featuredImage: ".Assets/CryptoPrice/cryptoScreenShot.webp",
+    featuredImageDesktop: ".Assets/CryptoPrice/cryptoScreenShot.webp",
     technologies: ["React", "CSS", "JavaScript", "Redux", "API"],
     liveLink: "https://anasdev.com/Bookstore/",
     sourceLink: "https://github.com/anas599/crypto-price",
