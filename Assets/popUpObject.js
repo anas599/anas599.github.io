@@ -1,6 +1,28 @@
 /* eslint-disable no-unused-vars */
 const projectsInfo = [
   {
+    name: "Space-Travelers",
+    namePop: "Space-Travelers",
+    description:
+      "Space-Travelers a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.",
+    featuredImage: "./Assets/SpaceTravelers/Rockets-ScreenShot.webp",
+    featuredImageDesktop: "./Assets/SpaceTravelers/Rockets-ScreenShot.webp",
+    technologies: ["React", "CSS", "JavaScript", "Redux", "API"],
+    liveLink: "https://anasdev.com/Bookstore/",
+    sourceLink: "https://github.com/anas599/crypto-price",
+  },
+  {
+    name: "Crypto Prices",
+    namePop: "Crypto Prices",
+    description:
+      "Crypto Prices is a React.js and Redux web application that displays real-time market prices of cryptocurrencies fetched from the Coin Gecko API. Features include price history, currency conversion, and a user-friendly interface.",
+    featuredImage: "./Assets/CryptoPrice/cryptoPrice.webp",
+    featuredImageDesktop: "./Assets/CryptoPrice/cryptoPrice.webp",
+    technologies: ["React", "CSS", "JavaScript", "Redux"],
+    liveLink: "https://crypto-prices-reactjs.netlify.app/",
+    sourceLink: "https://github.com/anas599/crypto-price",
+  },
+  {
     name: "BookStore",
     namePop: "BookStore",
     description:
