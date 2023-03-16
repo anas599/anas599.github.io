@@ -8,8 +8,8 @@ const projectsInfo = [
     featuredImage: "./Assets/SpaceTravelers/Rockets-ScreenShot.webp",
     featuredImageDesktop: "./Assets/SpaceTravelers/Rockets-ScreenShot.webp",
     technologies: ["React", "CSS", "JavaScript", "Redux", "API"],
-    liveLink: "https://anasdev.com/Bookstore/",
-    sourceLink: "https://github.com/anas599/crypto-price",
+    liveLink: "https://space-travelers-reactjs.netlify.app/",
+    sourceLink: "https://github.com/anas599/space-travelers-hub",
   },
   {
     name: "Crypto Prices",
