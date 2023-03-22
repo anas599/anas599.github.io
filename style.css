@@ -1,7 +1,7 @@
 html {
   margin: 0;
   scroll-behavior: smooth;
-  background: radial-gradient(ellipse at center, rgba(17, 47, 116, 0.052) 0%, rgba(0, 0, 0, 0) 100%);
+  background: radial-gradient(ellipse at center, rgba(17, 46, 116, 0.052) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 #darkMode {
