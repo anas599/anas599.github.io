@@ -116,7 +116,7 @@ projectsInfo.forEach(project => {
 	const workHeader = document.createElement('h2');
 
 	// Set attributes
-	card.classList.add('card', 'glass');
+	card.classList.add('card', 'glass', 'scroll');
 	img.src = project.featuredImage;
 	img.classList.add('card-img-top');
 	img.alt = project.name;
