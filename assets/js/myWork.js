@@ -1,5 +1,16 @@
 const projectsInfo = [
 	{
+    name: "Blog App",
+    namePop: "Blog App",
+    description:
+      "Blog Build is a Ruby on Rails web app with PostgreSQL database that enables users to publish blog posts, like and comment on other posts, and manage their profiles.",
+    featuredImage: "./Assets/blog/blod2.webp",
+    featuredImageDesktop: "./Assets/blog/blod2.webp",
+    technologies: ["Ruby on Rails", "PSQL", "Bootstrap", "API"],
+    liveLink: "https://github.com/anas599/blog",
+    sourceLink: "https://github.com/anas599/blog",
+  },
+	{
 		name: 'Space-Travelers',
 		namePop: 'Space-Travelers',
 		description:
