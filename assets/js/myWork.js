@@ -1,114 +1,125 @@
 const projectsInfo = [
-	{
+  {
+    name: "Recipe-App",
+    namePop: "Recipe-App",
+    description:
+      "Recipe App is a robust and user-friendly recipe application built using Ruby on Rails, leveraging the power of Bootstrap, Devise, and Capybara gems. Seamlessly create, discover, and share recipes with it.",
+    featuredImage: "./images/work/Recipe-app.webp",
+    featuredImageDesktop: "./images/work/Recipe-app.webp",
+    technologies: ["Ruby on Rails", "PSQL", "Bootstrap", "API", "Devise"],
+    liveLink: "https://mysite-uoec.onrender.com/",
+    sourceLink: "https://github.com/anas599/Recipe-app",
+  },
+  {
     name: "Blog App",
     namePop: "Blog App",
     description:
       "Blog Build is a Ruby on Rails web app with PostgreSQL database that enables users to publish blog posts, like and comment on other posts, and manage their profiles.",
-    featuredImage: './images/work/blog2.webp',
-    featuredImageDesktop: './images/work/blog2.webp',
+    featuredImage: "./images/work/blog2.webp",
+    featuredImageDesktop: "./images/work/blog2.webp",
     technologies: ["Ruby on Rails", "PSQL", "Bootstrap", "API"],
     liveLink: "https://github.com/anas599/blog",
     sourceLink: "https://github.com/anas599/blog",
   },
-	{
-		name: 'Space-Travelers',
-		namePop: 'Space-Travelers',
-		description:
-      'Space-Travelers a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.',
-		featuredImage: './images/work/space.webp',
-		featuredImageDesktop: './images/work/space.webp',
-		technologies: ['React', 'CSS3', 'JS', 'Redux', 'API'],
-		liveLink: 'https://space-travelers-reactjs.netlify.app/',
-		sourceLink: 'https://github.com/anas599/space-travelers-hub',
-	},
-	{
-		name: 'Crypto Prices',
-		namePop: 'Crypto Prices',
-		description:
-      'Crypto Prices is a React.js and Redux web application that displays real-time market prices of cryptocurrencies fetched from the Coin Gecko API. Features include price history, currency conversion, and a user-friendly interface.',
-		featuredImage: './images/work/cryptoprice.webp',
-		featuredImageDesktop: './images/work/cryptoprice.webp',
-		technologies: ['React', 'CSS3', 'JS', 'Redux', 'API'],
-		liveLink: 'https://crypto-prices-reactjs.netlify.app/',
-		sourceLink: 'https://github.com/anas599/crypto-price',
-	},
-	{
-		name: 'BookStore',
-		namePop: 'BookStore',
-		description:
-      'Bookstore is a professional-grade web application built using React and Redux, aimed at creating an online platform for buying and selling books. With its user-friendly interface and seamless user experience, Bookstore allows users to browse and purchase books, manage their orders, and track their reading progress.',
-		featuredImage: './images/work/bookstore.webp',
-		featuredImageDesktop: './images/work/bookstore.webp',
-		technologies: ['React', 'CSS3', 'JS', 'Redux', 'API'],
-		liveLink: 'https://anasdev.com/Bookstore/',
-		sourceLink: 'https://github.com/anas599/Bookstore',
-	},
-	{
-		name: 'Leaderboard for games',
-		namePop: 'Leaderboard for games',
-		description:
-      'Leaderboard is a dynamic and interactive web project built using the latest web technologies, including Webpack, JavaScript, HTML, and CSS3. It provides real-time ranking and score tracking for various competitions and games with a user-friendly interface. Enjoy fast navigation, stunning graphics.',
-		featuredImage: './images/work/leaderboard.webp',
-		featuredImageDesktop: './images/work/leaderboard.webp',
-		technologies: ['WebPack', 'CSS3', 'JS', 'HTML5', 'API'],
-		liveLink: 'https://anas599.github.io/Leaderboard/dist/',
-		sourceLink: 'https://github.com/anas599/Leaderboard',
-	},
-	{
-		name: 'Math-magicians',
-		namePop: 'Math-magicians',
-		description:
-      'Math-magicians - A simple and efficient calculator built using React. This project provides a clean and user-friendly interface for performing basic mathematical operations like addition, subtraction, multiplication, and division, as well as advanced features like percentage and square root calculations.',
-		featuredImage: './images/work/math-magicians.webp',
-		featuredImageDesktop: './images/work/math-magicians.webp',
-		technologies: ['React', 'CSS3', 'JS', 'HTML5'],
-		liveLink: 'https://math-magicians-react-js.netlify.app/',
-		sourceLink: 'https://github.com/anas599/Math-magicians',
-	},
-	{
-		name: 'TV-Maze',
-		namePop: 'TV-Maze',
-		description: `
+  {
+    name: "Space-Travelers",
+    namePop: "Space-Travelers",
+    description:
+      "Space-Travelers a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.",
+    featuredImage: "./images/work/space.webp",
+    featuredImageDesktop: "./images/work/space.webp",
+    technologies: ["React", "CSS3", "JS", "Redux", "API"],
+    liveLink: "https://space-travelers-reactjs.netlify.app/",
+    sourceLink: "https://github.com/anas599/space-travelers-hub",
+  },
+  {
+    name: "Crypto Prices",
+    namePop: "Crypto Prices",
+    description:
+      "Crypto Prices is a React.js and Redux web application that displays real-time market prices of cryptocurrencies fetched from the Coin Gecko API. Features include price history, currency conversion, and a user-friendly interface.",
+    featuredImage: "./images/work/cryptoprice.webp",
+    featuredImageDesktop: "./images/work/cryptoprice.webp",
+    technologies: ["React", "CSS3", "JS", "Redux", "API"],
+    liveLink: "https://crypto-prices-reactjs.netlify.app/",
+    sourceLink: "https://github.com/anas599/crypto-price",
+  },
+  {
+    name: "BookStore",
+    namePop: "BookStore",
+    description:
+      "Bookstore is a professional-grade web application built using React and Redux, aimed at creating an online platform for buying and selling books. With its user-friendly interface and seamless user experience, Bookstore allows users to browse and purchase books, manage their orders, and track their reading progress.",
+    featuredImage: "./images/work/bookstore.webp",
+    featuredImageDesktop: "./images/work/bookstore.webp",
+    technologies: ["React", "CSS3", "JS", "Redux", "API"],
+    liveLink: "https://anasdev.com/Bookstore/",
+    sourceLink: "https://github.com/anas599/Bookstore",
+  },
+  {
+    name: "Leaderboard for games",
+    namePop: "Leaderboard for games",
+    description:
+      "Leaderboard is a dynamic and interactive web project built using the latest web technologies, including Webpack, JavaScript, HTML, and CSS3. It provides real-time ranking and score tracking for various competitions and games with a user-friendly interface. Enjoy fast navigation, stunning graphics.",
+    featuredImage: "./images/work/leaderboard.webp",
+    featuredImageDesktop: "./images/work/leaderboard.webp",
+    technologies: ["WebPack", "CSS3", "JS", "HTML5", "API"],
+    liveLink: "https://anas599.github.io/Leaderboard/dist/",
+    sourceLink: "https://github.com/anas599/Leaderboard",
+  },
+  {
+    name: "Math-magicians",
+    namePop: "Math-magicians",
+    description:
+      "Math-magicians - A simple and efficient calculator built using React. This project provides a clean and user-friendly interface for performing basic mathematical operations like addition, subtraction, multiplication, and division, as well as advanced features like percentage and square root calculations.",
+    featuredImage: "./images/work/math-magicians.webp",
+    featuredImageDesktop: "./images/work/math-magicians.webp",
+    technologies: ["React", "CSS3", "JS", "HTML5"],
+    liveLink: "https://math-magicians-react-js.netlify.app/",
+    sourceLink: "https://github.com/anas599/Math-magicians",
+  },
+  {
+    name: "TV-Maze",
+    namePop: "TV-Maze",
+    description: `
     The "tv maze" project is a web application built with JavaScript, HTML, and CSS3 and uses Webpack as its build tool. The project makes API calls to fetch movie information and allows users to add likes and comments, which are then stored back to the API. The application has the ability to retrieve this information, providing a dynamic and interactiv`,
-		featuredImage: './images/work/tvmaze.webp',
-		featuredImageDesktop: './images/work/tvmaze.webp',
-		technologies: ['WebPack', 'CSS3', 'JS', 'HTML5', 'API'],
-		liveLink: 'https://anasdev.com/TV-Maze/dist/',
-		sourceLink: 'https://github.com/anas599/TV-Maze',
-	},
-	// {
-	//   name: "Awsome Books",
-	//   namePop: "Awsome Books",
-	//   description:
-	//     'Awesome Books" is a website that allows users to enter the author and title of their favorite books and save them to a list. The site has a simple and easy-to-use interface, allowing users to quickly and easily add new books to their list. The list can be viewed and edited at any time, and users can also search for specific books in the list.',
-	//   featuredImage: "./Assets/awsomeBooksPics/awb1resize.png",
-	//   featuredImageDesktop: "./Assets/awsomeBooksPics/awb1resize.png",
-	//   technologies: ["Ruby on rails", "CSS3", "JS", "HTML5"],
-	//   liveLink: "https://anas599.github.io/Awsome-Books/",
-	//   sourceLink: "https://github.com/anas599/Awsome-Books",
-	// },
-	{
-		name: 'To Do List',
-		namePop: 'To Do',
-		description:
+    featuredImage: "./images/work/tvmaze.webp",
+    featuredImageDesktop: "./images/work/tvmaze.webp",
+    technologies: ["WebPack", "CSS3", "JS", "HTML5", "API"],
+    liveLink: "https://anasdev.com/TV-Maze/dist/",
+    sourceLink: "https://github.com/anas599/TV-Maze",
+  },
+  // {
+  //   name: "Awsome Books",
+  //   namePop: "Awsome Books",
+  //   description:
+  //     'Awesome Books" is a website that allows users to enter the author and title of their favorite books and save them to a list. The site has a simple and easy-to-use interface, allowing users to quickly and easily add new books to their list. The list can be viewed and edited at any time, and users can also search for specific books in the list.',
+  //   featuredImage: "./Assets/awsomeBooksPics/awb1resize.png",
+  //   featuredImageDesktop: "./Assets/awsomeBooksPics/awb1resize.png",
+  //   technologies: ["Ruby on rails", "CSS3", "JS", "HTML5"],
+  //   liveLink: "https://anas599.github.io/Awsome-Books/",
+  //   sourceLink: "https://github.com/anas599/Awsome-Books",
+  // },
+  {
+    name: "To Do List",
+    namePop: "To Do",
+    description:
       '"To-Do List" is a web-based project that was built using webpack. It allows users to create and manage a list of tasks, with the ability to add new tasks and mark them as complete. The tasks are saved in local storage, so they will persist even if the user closes the browser or turns off their computer. The website has a clean and simple interface',
-		featuredImage: './images/work/todo-js.webp',
-		featuredImageDesktop: './images/work/todo-js.webp',
-		technologies: ['WebPack', 'CSS3', 'JS', 'HTML5'],
-		liveLink: 'https://anas599.github.io/To-Do-List/webpack-demo/dist/',
-		sourceLink: 'https://github.com/anas599/To-Do-List',
-	},
-	{
-		name: 'Rebellion Makeup Nova',
-		namePop: 'Rebellion Makeup Nova',
-		description:
-      'The "Rebellion Makeup" Capstone project is a website redesign for a brand of the same name. The website was built using HTML, CSS3, and JavaScript, and it features a sleek and modern design that reflects the brand\'s aesthetic. The website includes information about the brand\'s products, including makeup tutorials, reviews and a section to purchase.',
-		featuredImage: './images/work/nova.webp',
-		featuredImageDesktop: './images/work/nova.webp',
-		technologies: ['WebPack', 'CSS3', 'JS', 'HTML5'],
-		liveLink: 'https://anas599.github.io/Capstone-project',
-		sourceLink: 'https://github.com/anas599/Capstone-project',
-	},
+    featuredImage: "./images/work/todo-js.webp",
+    featuredImageDesktop: "./images/work/todo-js.webp",
+    technologies: ["WebPack", "CSS3", "JS", "HTML5"],
+    liveLink: "https://anas599.github.io/To-Do-List/webpack-demo/dist/",
+    sourceLink: "https://github.com/anas599/To-Do-List",
+  },
+  {
+    name: "Rebellion Makeup Nova",
+    namePop: "Rebellion Makeup Nova",
+    description:
+      "The \"Rebellion Makeup\" Capstone project is a website redesign for a brand of the same name. The website was built using HTML, CSS3, and JavaScript, and it features a sleek and modern design that reflects the brand's aesthetic. The website includes information about the brand's products, including makeup tutorials, reviews and a section to purchase.",
+    featuredImage: "./images/work/nova.webp",
+    featuredImageDesktop: "./images/work/nova.webp",
+    technologies: ["WebPack", "CSS3", "JS", "HTML5"],
+    liveLink: "https://anas599.github.io/Capstone-project",
+    sourceLink: "https://github.com/anas599/Capstone-project",
+  },
 ];
 const container = document.querySelector('#work');
 
