@@ -1,5 +1,16 @@
 const projectsInfo = [
   {
+    name: "Budget-App",
+    namePop: "Budget-App",
+    description:
+      "BudgetApp: A Ruby on Rails app for managing personal finances with pSQL and Bootstrap. built for iOS to Track your expenses, set budget goals, and gain insights into your spending habits. Stay on top of your finances with this user-friendly budgeting tool.",
+    featuredImage: "./images/work/budget-iphone.webp",
+    featuredImageDesktop: "./images/work/budget-iphone.webp",
+    technologies: ["Ruby on Rails", "PSQL", "Bootstrap", "API", "Devise"],
+    liveLink: "https://mysite-7fzl.onrender.com/",
+    sourceLink: "https://github.com/anas599/Budget-app",
+  },
+  {
     name: "Recipe-App",
     namePop: "Recipe-App",
     description:
