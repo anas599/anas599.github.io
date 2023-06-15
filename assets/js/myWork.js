@@ -153,6 +153,7 @@ projectsInfo.forEach(project => {
 	img.src = project.featuredImage;
 	img.classList.add('card-img-top');
 	img.alt = project.name;
+  img.loading = "lazy";
 	title.classList.add('card-title');
 	cardBody.classList.add('card-body');
 	title.textContent = project.name;
