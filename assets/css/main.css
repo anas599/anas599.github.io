@@ -808,6 +808,7 @@ ul {
 
 ul li {
 	padding-left: 0.5em;
+	list-style: none;
 }
 
 ul.alt {
@@ -2456,6 +2457,10 @@ h1 {
 .logo-nav {
 	display: none;
 }
+.line-start .line-end {
+	display: none;
+	list-style: none;
+}
 
 .top-nav {
 	position: fixed;
@@ -2641,11 +2646,13 @@ h1 {
 
 	.line-start .line-end {
 		display: none;
+			list-style: none;
 	}
 }
 
 .line-start .line-end {
 	display: none;
+	list-style: none;
 }
 
 /* New top nav end */
