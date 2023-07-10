@@ -2466,18 +2466,31 @@ h1 {
 	position: fixed;
 	top: 0;
 	width: 100vw;
+	display: -webkit-box;
+	/* Safari */
+	display: -ms-flexbox;
+	/* IE 10 */
 	display: flex;
 	left: 0;
+	-webkit-box-pack: center;
+	/* Safari */
+	-ms-flex-pack: center;
+	/* IE 10 */
 	justify-content: center;
 	gap: 3rem;
 	z-index: 1;
-	background: rgb(255 255 255 / 19%);
+	background: rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+	/* Safari */
 	box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-	backdrop-filter: blur(7.6px);
+	-webkit-backdrop-filter: blur(10.6px);
+	/* Safari */
+	backdrop-filter: blur(10.6px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	/* Safari */
 	border: 1px solid rgb(255 255 255 / 30%);
 	padding: 0.5rem 0;
 }
-
 .nav-button {
 	display: none;
 }
