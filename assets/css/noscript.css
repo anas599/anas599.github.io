@@ -6,30 +6,29 @@
 
 /* BG */
 
-	body.is-preload #bg::before {
-		background-color: transparent;
-	}
+body.is-preload #bg::before {
+	background-color: transparent;
+}
 
 /* Header */
 
-	body.is-preload #header {
-		filter: none;
-		filter: none;
-	}
+body.is-preload #header {
+	filter: none;
+}
 
-		body.is-preload #header > * {
-			opacity: 1;
-		}
+body.is-preload #header>* {
+	opacity: 1;
+}
 
-		body.is-preload #header .content .inner {
-			max-height: none;
-			padding: 3rem 2rem;
-			opacity: 1;
-		}
+body.is-preload #header .content .inner {
+	max-height: none;
+	padding: 3rem 2rem;
+	opacity: 1;
+}
 
 /* Main */
 
-	#main article {
-		opacity: 1;
-		margin: 4rem 0 0;
-	}
+#main article {
+	opacity: 1;
+	margin: 4rem 0 0;
+}
