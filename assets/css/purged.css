@@ -72,7 +72,6 @@ textarea {
 }
 
 @media screen and (width <=480px) {
-
 	html,
 	body {
 		min-width: 320px;
@@ -1032,6 +1031,7 @@ body {
 .icons a {
 	margin: 0 25px;
 	margin-top: 30px;
+
 	/* there was no margin top or bottom */
 	margin-bottom: 30px;
 	text-decoration: none;
@@ -1157,6 +1157,7 @@ body {
 @media (width <=auto) {
 	.icons {
 		width: calc(30% - 10px)
+
 			/* flex-direction: column } */
 
 	}
@@ -1493,7 +1494,6 @@ h1 {
 }
 
 @keyframes blink {
-
 	20%,
 	24%,
 	55% {
@@ -1514,7 +1514,6 @@ h1 {
 }
 
 @keyframes blink {
-
 	20%,
 	24%,
 	55% {
@@ -1537,7 +1536,6 @@ h1 {
 
 /* my work icons */
 @media only screen and (width <=768px) {
-
 	.icons a {
 		margin: 1.2rem 1rem;
 	}
@@ -1634,6 +1632,7 @@ h1 {
 .logo-nav {
 	display: none;
 }
+
 .line-start .line-end {
 	display: none;
 	list-style: none;
@@ -1644,30 +1643,37 @@ h1 {
 	top: 0;
 	width: 100vw;
 	display: -webkit-box;
+
 	/* Safari */
-	display: -ms-flexbox;
+	display: flexbox;
+
 	/* IE 10 */
 	display: flex;
 	left: 0;
 	-webkit-box-pack: center;
+
 	/* Safari */
 	-ms-flex-pack: center;
+
 	/* IE 10 */
 	justify-content: center;
 	gap: 3rem;
 	z-index: 1;
-	background: rgba(0, 0, 0, 0.19);
-	-webkit-box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+	background: rgb(0 0 0 / 19%);
+	box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+
 	/* Safari */
 	box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-	-webkit-backdrop-filter: blur(10.6px);
+	backdrop-filter: blur(10.6px);
+
 	/* Safari */
 	backdrop-filter: blur(10.6px);
-	border: 1px solid rgba(255, 255, 255, 0.3);
+
 	/* Safari */
 	border: 1px solid rgb(255 255 255 / 30%);
 	padding: 0.5rem 0;
 }
+
 .nav-button {
 	display: none;
 }
@@ -1843,8 +1849,9 @@ appearance: none;
 	text-transform: uppercase;
 	white-space: nowrap;
 }
+
 .link-button:hover {
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: rgb(255 255 255 / 10%);
 	box-shadow: inset 0 0 0 1px #fff;
 	color: #fff;
 }
