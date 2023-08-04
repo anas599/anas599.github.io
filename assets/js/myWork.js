@@ -4,8 +4,8 @@ const projectsInfo = [
     namePop: "Crypto blog",
     description:
       "Crypto Blog: A Next.js web app with Prisma adapter for real-time cryptocurrency data. Engage in community-driven discussions, add predictions, and vote on comments. NextAuth ensures secure authentication. Stay informed and join the crypto community! 🚀💰 styled using tailwind css with RDS PSQL deployed on AWS",
-    featuredImage: "./images/crypto-blog.webp",
-    featuredImageDesktop: "./images/crypto-blog.webp",
+    featuredImage: "./images/work/crypto-blog.webp",
+    featuredImageDesktop: "./images/work/crypto-blog.webp",
     technologies: ["Nextjs", "Tailwind", "PSQL", "API", "Prisma"],
     liveLink: "https://crypto-blog-nextjs.netlify.app/",
     sourceLink: "https://github.com/anas599/Crypto-blog",
