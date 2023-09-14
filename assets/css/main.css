@@ -252,7 +252,7 @@ i {
 }
 
 p {
-	margin: 0 0 2rem;
+	margin: 0 0 1rem;
 }
 
 h1,
@@ -2735,4 +2735,99 @@ h1 {
 	justify-content: center;
 	align-items: center;
 
+}
+
+/* recemendation style */
+
+.show-more {
+	cursor: pointer;
+	color: rgb(183, 106, 221);
+
+	/* add on hover change color */
+
+}
+
+.show-more:hover {
+	color: var(--clr-three);
+}
+
+#recommendations {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.recommendation {
+	width: 30vw;
+}
+
+/* .role-paragraph .date-paragraph {
+	margin: 0% !important;
+} */
+
+.pic-gradient {
+	background: linear-gradient(white, white) padding-box,
+		linear-gradient(to right, darkblue, darkorchid) border-box;
+	border-radius: 100%;
+	border: 4px solid transparent;
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	width: 5rem;
+}
+
+.show-more-btn {
+	/* Define the linear gradient background */
+	background: linear-gradient(white, white) padding-box,
+		linear-gradient(to right, darkblue, darkorchid) border-box;
+
+	/* Set the text color to transparent */
+	color: transparent;
+
+	/* Apply the background-clip to the text */
+	-webkit-background-clip: text;
+	background-clip: text;
+
+	/* Specify the text-fill-color with the desired color */
+	-webkit-text-fill-color: darkorchid;
+	text-fill-color: darkorchid;
+}
+
+#recommendations {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* margin: 2rem; */
+	border-radius: 1rem;
+	border-style: solid;
+	border-color: #fff;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	padding-top: 2rem;
+	width: 100vw;
+}
+
+.recommendations-h2 {
+	border-bottom: solid 1px #fff;
+	width: -ms-max-content;
+	width: max-content;
+	padding-bottom: 0.5rem;
+	margin: 0 0 2rem;
+	text-align: center;
+}
+
+.bottom-border-grad {
+	background: linear-gradient(white, white) padding-box,
+		linear-gradient(to right, darkblue, darkorchid) border-box;
+	border-radius: 100%;
+	border-bottom: 4px solid transparent;
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	width: 100vw;
 }
