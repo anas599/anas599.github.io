@@ -2726,6 +2726,7 @@ h1 {
 	border-top-width: 1px;
 	border-bottom-width: 1px;
 	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .skills-pill-container {
@@ -2759,12 +2760,9 @@ h1 {
 }
 
 .recommendation {
-	width: 30vw;
+	width: 90vw;
 }
 
-/* .role-paragraph .date-paragraph {
-	margin: 0% !important;
-} */
 
 .pic-gradient {
 	background: linear-gradient(white, white) padding-box,
@@ -2807,7 +2805,8 @@ h1 {
 	border-top-width: 1px;
 	border-bottom-width: 1px;
 	padding-top: 2rem;
-	width: 100vw;
+	padding-bottom: 2rem;
+	width: fit-content;
 }
 
 .recommendations-h2 {
@@ -2829,5 +2828,5 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-	width: 100vw;
+	width: 90vw;
 }

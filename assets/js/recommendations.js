@@ -36,7 +36,7 @@ myRecommendations.forEach((recommendation) => {
   const recommendationDiv = document.createElement('div');
   recommendationDiv.classList.add('recommendation');
   recommendationDiv.classList.add('glass');
-  recommendationDiv.classList.add('w-auto');
+  // recommendationDiv.classList.add('w-auto');
 
   // Create an image element
   const imageElement = document.createElement('img');
