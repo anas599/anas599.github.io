@@ -1,5 +1,16 @@
 const projectsInfo = [
   {
+    name: 'Supplement Register',
+    namePop: 'Supplement Register',
+    description:
+      'Manage your supplement store effortlessly with this Next.js 13, Prisma, and MySQL-powered app. It handles inventory, invoices, and daily sales tracking. using AWS S3 bucket for uploading images and RDS PSQL as database Plus, it is packaged with Electron Forge for Windows and Mac compatibility',
+    featuredImage: './images/work/Supp-register.webp',
+    featuredImageDesktop: './images/work/Supp-register.webp',
+    technologies: ['Nextjs', 'Tailwind', 'PSQL', 'S3', 'Prisma', 'API'],
+    liveLink: 'https://dev--unique-pasca-264af8.netlify.app/',
+    sourceLink: 'https://github.com/anas599/Supplement-register',
+  },
+  {
     name: 'Crypto blog',
     namePop: 'Crypto blog',
     description:
@@ -11,17 +22,17 @@ const projectsInfo = [
     sourceLink: 'https://github.com/anas599/Crypto-blog',
   },
 
-  {
-    name: 'Tutoring App',
-    namePop: 'Tutoring App',
-    description:
-      'Tutoring App is a single page app that enables users to effortlessly manage classes, including adding, deleting, and viewing class details. It also provides reservation functionality, allowing users to make reservations and view their reservation details, the back-end is build using Ruby on Rails and the front end is built with ReactJS.',
-    featuredImage: './images/tutoring-app.webp',
-    featuredImageDesktop: './images/tutoring-app.webp',
-    technologies: ['Ruby on Rails', 'ReactJS', 'Bootstrap', 'API', 'PSQL'],
-    liveLink: 'https://tutoring-front-end.onrender.com/',
-    sourceLink: 'https://github.com/anas599/tutoring-app-frontend',
-  },
+  // {
+  //   name: 'Tutoring App',
+  //   namePop: 'Tutoring App',
+  //   description:
+  //     'Tutoring App is a single page app that enables users to effortlessly manage classes, including adding, deleting, and viewing class details. It also provides reservation functionality, allowing users to make reservations and view their reservation details, the back-end is build using Ruby on Rails and the front end is built with ReactJS.',
+  //   featuredImage: './images/tutoring-app.webp',
+  //   featuredImageDesktop: './images/tutoring-app.webp',
+  //   technologies: ['Ruby on Rails', 'ReactJS', 'Bootstrap', 'API', 'PSQL'],
+  //   liveLink: 'https://tutoring-front-end.onrender.com/',
+  //   sourceLink: 'https://github.com/anas599/tutoring-app-frontend',
+  // },
   {
     name: 'Budget-App',
     namePop: 'Budget-App',
@@ -77,17 +88,17 @@ const projectsInfo = [
     liveLink: 'https://crypto-prices-reactjs.netlify.app/',
     sourceLink: 'https://github.com/anas599/crypto-price',
   },
-  {
-    name: 'BookStore',
-    namePop: 'BookStore',
-    description:
-      'Bookstore is a professional-grade web application built using React and Redux, aimed at creating an online platform for buying and selling books. With its user-friendly interface and seamless user experience, Bookstore allows users to browse and purchase books, manage their orders, and track their reading progress.',
-    featuredImage: './images/work/bookstore.webp',
-    featuredImageDesktop: './images/work/bookstore.webp',
-    technologies: ['React', 'CSS3', 'JS', 'Redux', 'API'],
-    liveLink: 'https://anasdev.com/Bookstore/',
-    sourceLink: 'https://github.com/anas599/Bookstore',
-  },
+  // {
+  //   name: 'BookStore',
+  //   namePop: 'BookStore',
+  //   description:
+  //     'Bookstore is a professional-grade web application built using React and Redux, aimed at creating an online platform for buying and selling books. With its user-friendly interface and seamless user experience, Bookstore allows users to browse and purchase books, manage their orders, and track their reading progress.',
+  //   featuredImage: './images/work/bookstore.webp',
+  //   featuredImageDesktop: './images/work/bookstore.webp',
+  //   technologies: ['React', 'CSS3', 'JS', 'Redux', 'API'],
+  //   liveLink: 'https://anasdev.com/Bookstore/',
+  //   sourceLink: 'https://github.com/anas599/Bookstore',
+  // },
   // {
   //   name: "Leaderboard for games",
   //   namePop: "Leaderboard for games",
