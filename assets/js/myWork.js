@@ -7,7 +7,7 @@ const projectsInfo = [
     featuredImage: './images/work/Supp-register.webp',
     featuredImageDesktop: './images/work/Supp-register.webp',
     technologies: ['Nextjs', 'Tailwind', 'PSQL', 'S3', 'Prisma', 'API'],
-    liveLink: 'https://supplements-register.netlify.app/',
+    liveLink: 'https://dev--supplements-register.netlify.app/',
     sourceLink: 'https://github.com/anas599/Supplement-register',
   },
   {
