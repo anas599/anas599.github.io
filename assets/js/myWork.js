@@ -22,17 +22,17 @@ const projectsInfo = [
     sourceLink: 'https://github.com/anas599/Crypto-blog',
   },
 
-  // {
-  //   name: 'Tutoring App',
-  //   namePop: 'Tutoring App',
-  //   description:
-  //     'Tutoring App is a single page app that enables users to effortlessly manage classes, including adding, deleting, and viewing class details. It also provides reservation functionality, allowing users to make reservations and view their reservation details, the back-end is build using Ruby on Rails and the front end is built with ReactJS.',
-  //   featuredImage: './images/tutoring-app.webp',
-  //   featuredImageDesktop: './images/tutoring-app.webp',
-  //   technologies: ['Ruby on Rails', 'ReactJS', 'Bootstrap', 'API', 'PSQL'],
-  //   liveLink: 'https://tutoring-front-end.onrender.com/',
-  //   sourceLink: 'https://github.com/anas599/tutoring-app-frontend',
-  // },
+  {
+    name: 'Vejetree',
+    namePop: 'Vejetree',
+    description:
+      `Vejetree successfully encapsulates the brand's essence, offering an enticing and informative experience for visitors. It showcases the product line effectively and ensures a user-friendly journey. This project demonstrates my proficiency in React.js, Bootstrap, MUI, and Framer.`,
+    featuredImage: './images/vejetree-screenshot.webp',
+    featuredImageDesktop: './images/vejetree-screenshot.webp',
+    technologies: ['ReactJS', 'mui', 'Bootstrap', 'Framer.motion', 'SCSS'],
+    liveLink: 'https://vejetree.com/',
+    sourceLink: 'https://github.com/anas599/',
+  },
   {
     name: 'Budget-App',
     namePop: 'Budget-App',
@@ -110,17 +110,17 @@ const projectsInfo = [
   //   liveLink: "https://anas599.github.io/Leaderboard/dist/",
   //   sourceLink: "https://github.com/anas599/Leaderboard",
   // },
-  {
-    name: 'Math-magicians',
-    namePop: 'Math-magicians',
-    description:
-      'Math-magicians - A simple and efficient calculator built using React. This project provides a clean and user-friendly interface for performing basic mathematical operations like addition, subtraction, multiplication, and division, as well as advanced features like percentage and square root calculations.',
-    featuredImage: './images/work/math-magicians.webp',
-    featuredImageDesktop: './images/work/math-magicians.webp',
-    technologies: ['React', 'CSS3', 'JS', 'HTML5'],
-    liveLink: 'https://math-magicians-react-js.netlify.app/',
-    sourceLink: 'https://github.com/anas599/Math-magicians',
-  },
+  // {
+  //   name: 'Math-magicians',
+  //   namePop: 'Math-magicians',
+  //   description:
+  //     'Math-magicians - A simple and efficient calculator built using React. This project provides a clean and user-friendly interface for performing basic mathematical operations like addition, subtraction, multiplication, and division, as well as advanced features like percentage and square root calculations.',
+  //   featuredImage: './images/work/math-magicians.webp',
+  //   featuredImageDesktop: './images/work/math-magicians.webp',
+  //   technologies: ['React', 'CSS3', 'JS', 'HTML5'],
+  //   liveLink: 'https://math-magicians-react-js.netlify.app/',
+  //   sourceLink: 'https://github.com/anas599/Math-magicians',
+  // },
   // {
   // 	name: 'TV-Maze',
   // 	namePop: 'TV-Maze',
