@@ -711,7 +711,6 @@ textarea:focus {
   padding-bottom: 250px;
 }
 
-/* --------dropdown menu---------- */
 #myLinks {
   display: none;
   transition: all 0.3s ease-in-out;
