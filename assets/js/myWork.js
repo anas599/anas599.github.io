@@ -77,17 +77,17 @@ const projectsInfo = [
     liveLink: 'https://space-travelers-reactjs.netlify.app/',
     sourceLink: 'https://github.com/anas599/space-travelers-hub',
   },
-  {
-    name: 'Crypto Prices',
-    namePop: 'Crypto Prices',
-    description:
-      'Crypto Prices is a React.js and Redux web application that displays real-time market prices of cryptocurrencies fetched from the Coin Gecko API. Features include price history, currency conversion, and a user-friendly interface.',
-    featuredImage: './images/work/cryptoprice.webp',
-    featuredImageDesktop: './images/work/cryptoprice.webp',
-    technologies: ['React', 'CSS3', 'JS', 'Redux', 'API'],
-    liveLink: 'https://crypto-prices-reactjs.netlify.app/',
-    sourceLink: 'https://github.com/anas599/crypto-price',
-  },
+  // {
+  //   name: 'Crypto Prices',
+  //   namePop: 'Crypto Prices',
+  //   description:
+  //     'Crypto Prices is a React.js and Redux web application that displays real-time market prices of cryptocurrencies fetched from the Coin Gecko API. Features include price history, currency conversion, and a user-friendly interface.',
+  //   featuredImage: './images/work/cryptoprice.webp',
+  //   featuredImageDesktop: './images/work/cryptoprice.webp',
+  //   technologies: ['React', 'CSS3', 'JS', 'Redux', 'API'],
+  //   liveLink: 'https://crypto-prices-reactjs.netlify.app/',
+  //   sourceLink: 'https://github.com/anas599/crypto-price',
+  // },
   // {
   //   name: 'BookStore',
   //   namePop: 'BookStore',
