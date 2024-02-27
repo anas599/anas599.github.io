@@ -66,17 +66,17 @@ const projectsInfo = [
     liveLink: 'https://github.com/anas599/blog',
     sourceLink: 'https://github.com/anas599/blog',
   },
-  {
-    name: 'Space-Travelers',
-    namePop: 'Space-Travelers',
-    description:
-      'Space-Travelers a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.',
-    featuredImage: './images/work/space.webp',
-    featuredImageDesktop: './images/work/space.webp',
-    technologies: ['React', 'CSS3', 'JS', 'Redux', 'API'],
-    liveLink: 'https://space-travelers-reactjs.netlify.app/',
-    sourceLink: 'https://github.com/anas599/space-travelers-hub',
-  },
+  // {
+  //   name: 'Space-Travelers',
+  //   namePop: 'Space-Travelers',
+  //   description:
+  //     'Space-Travelers a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.',
+  //   featuredImage: './images/work/space.webp',
+  //   featuredImageDesktop: './images/work/space.webp',
+  //   technologies: ['React', 'CSS3', 'JS', 'Redux', 'API'],
+  //   liveLink: 'https://space-travelers-reactjs.netlify.app/',
+  //   sourceLink: 'https://github.com/anas599/space-travelers-hub',
+  // },
   // {
   //   name: 'Crypto Prices',
   //   namePop: 'Crypto Prices',
