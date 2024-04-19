@@ -41,7 +41,9 @@ const projectsInfo = [
     featuredImage: './images/work/budget-macos.webp',
     featuredImageDesktop: './images/work/budget-macos.webp',
     technologies: ['Ruby on Rails', 'PSQL', 'Bootstrap', 'API', 'Devise'],
-    liveLink: 'https://mysite-7fzl.onrender.com/',
+    // liveLink: 'https://mysite-7fzl.onrender.com/',
+    liveLink: 'https://github.com/anas599/Budget-app',
+
     sourceLink: 'https://github.com/anas599/Budget-app',
   },
   {
@@ -52,7 +54,9 @@ const projectsInfo = [
     featuredImage: './images/work/Recipe-app.webp',
     featuredImageDesktop: './images/work/Recipe-app.webp',
     technologies: ['Ruby on Rails', 'PSQL', 'Bootstrap', 'API', 'Devise'],
-    liveLink: 'https://mysite-uoec.onrender.com/',
+    // liveLink: 'https://mysite-uoec.onrender.com/',
+    liveLink: 'https://github.com/anas599/Recipe-app',
+
     sourceLink: 'https://github.com/anas599/Recipe-app',
   },
   {
