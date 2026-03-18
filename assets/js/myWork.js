@@ -1,75 +1,74 @@
 const projectsInfo = [
   {
-    name: 'Supplement Register',
-    namePop: 'Supplement Register',
+    name: "Supplement Register",
+    namePop: "Supplement Register",
     description:
-      'Manage your supplement store effortlessly with this Next.js 13, Prisma, and MySQL-powered app. It handles inventory, invoices, and daily sales tracking. using AWS S3 bucket for uploading images and RDS PSQL as database Plus, it is packaged with Electron Forge for Windows and Mac compatibility',
-    featuredImage: './images/work/Supp-register.webp',
-    featuredImageDesktop: './images/work/Supp-register.webp',
-    technologies: ['Nextjs', 'Tailwind', 'PSQL', 'S3', 'Prisma', 'API'],
-    liveLink: 'https://dev--supplements-register.netlify.app/',
-    sourceLink: 'https://github.com/anas599/Supplement-register',
+      "Manage your supplement store effortlessly with this Next.js 13, Prisma, and MySQL-powered app. It handles inventory, invoices, and daily sales tracking. using AWS S3 bucket for uploading images and RDS PSQL as database Plus, it is packaged with Electron Forge for Windows and Mac compatibility",
+    featuredImage: "./images/work/Supp-register.webp",
+    featuredImageDesktop: "./images/work/Supp-register.webp",
+    technologies: ["Nextjs", "Tailwind", "PSQL", "S3", "Prisma", "API"],
+    liveLink: "https://dev--supplements-register.netlify.app/",
+    sourceLink: "https://github.com/anas599/Supplement-register",
   },
   {
-    name: 'Crypto blog',
-    namePop: 'Crypto blog',
+    name: "Crypto blog",
+    namePop: "Crypto blog",
     description:
-      'Crypto Blog: A Next.js web app with Prisma adapter for real-time cryptocurrency data. Engage in community-driven discussions, add predictions, and vote on comments. NextAuth ensures secure authentication. Stay informed and join the crypto community! styled using tailwind css with RDS PSQL deployed on AWS',
-    featuredImage: './images/work/crypto-blog.webp',
-    featuredImageDesktop: './images/work/crypto-blog.webp',
-    technologies: ['Nextjs', 'Tailwind', 'PSQL', 'API', 'Prisma'],
-    liveLink: 'https://crypto-blog-nextjs.netlify.app/',
-    sourceLink: 'https://github.com/anas599/Crypto-blog',
+      "Crypto Blog: A Next.js web app with Prisma adapter for real-time cryptocurrency data. Engage in community-driven discussions, add predictions, and vote on comments. NextAuth ensures secure authentication. Stay informed and join the crypto community! styled using tailwind css with RDS PSQL deployed on AWS",
+    featuredImage: "./images/work/crypto-blog.webp",
+    featuredImageDesktop: "./images/work/crypto-blog.webp",
+    technologies: ["Nextjs", "Tailwind", "PSQL", "API", "Prisma"],
+    liveLink: "https://crypto-blog-nextjs.netlify.app/",
+    sourceLink: "https://github.com/anas599/Crypto-blog",
   },
 
   {
-    name: 'Vejetree',
-    namePop: 'Vejetree',
-    description:
-      `Vejetree successfully encapsulates the brand's essence, offering an enticing and informative experience for visitors. It showcases the product line effectively and ensures a user-friendly journey. This project demonstrates my proficiency in React.js, Bootstrap, MUI, and Framer.`,
-    featuredImage: './images/vejetree-screenshot.webp',
-    featuredImageDesktop: './images/vejetree-screenshot.webp',
-    technologies: ['ReactJS', 'mui', 'Bootstrap', 'Framer.motion', 'SCSS'],
-    liveLink: 'https://vejetree.com/',
-    sourceLink: 'https://github.com/anas599/',
+    name: "Vejetree",
+    namePop: "Vejetree",
+    description: `Vejetree successfully encapsulates the brand's essence, offering an enticing and informative experience for visitors. It showcases the product line effectively and ensures a user-friendly journey. This project demonstrates my proficiency in React.js, Bootstrap, MUI, and Framer.`,
+    featuredImage: "./images/vejetree-screenshot.webp",
+    featuredImageDesktop: "./images/vejetree-screenshot.webp",
+    technologies: ["ReactJS", "mui", "Bootstrap", "Framer.motion", "SCSS"],
+    liveLink: "https://vejetree.com/",
+    sourceLink: "https://github.com/anas599/",
   },
-  {
-    name: 'Budget-App',
-    namePop: 'Budget-App',
-    description:
-      'BudgetApp: A Ruby on Rails app for managing personal finances with pSQL and Bootstrap. built for iOS to Track your expenses, set budget goals, and gain insights into your spending habits. Stay on top of your finances with this user-friendly budgeting tool.',
-    featuredImage: './images/work/budget-macos.webp',
-    featuredImageDesktop: './images/work/budget-macos.webp',
-    technologies: ['Ruby on Rails', 'PSQL', 'Bootstrap', 'API', 'Devise'],
-    // liveLink: 'https://mysite-7fzl.onrender.com/',
-    liveLink: 'https://github.com/anas599/Budget-app',
+  // {
+  //   name: 'Budget-App',
+  //   namePop: 'Budget-App',
+  //   description:
+  //     'BudgetApp: A Ruby on Rails app for managing personal finances with pSQL and Bootstrap. built for iOS to Track your expenses, set budget goals, and gain insights into your spending habits. Stay on top of your finances with this user-friendly budgeting tool.',
+  //   featuredImage: './images/work/budget-macos.webp',
+  //   featuredImageDesktop: './images/work/budget-macos.webp',
+  //   technologies: ['Ruby on Rails', 'PSQL', 'Bootstrap', 'API', 'Devise'],
+  //   // liveLink: 'https://mysite-7fzl.onrender.com/',
+  //   liveLink: 'https://github.com/anas599/Budget-app',
 
-    sourceLink: 'https://github.com/anas599/Budget-app',
-  },
-  {
-    name: 'Recipe-App',
-    namePop: 'Recipe-App',
-    description:
-      'Recipe App is a robust and user-friendly recipe application built using Ruby on Rails, leveraging the power of Bootstrap, Devise, and Capybara gems. Seamlessly create, discover, and share recipes with it.',
-    featuredImage: './images/work/Recipe-app.webp',
-    featuredImageDesktop: './images/work/Recipe-app.webp',
-    technologies: ['Ruby on Rails', 'PSQL', 'Bootstrap', 'API', 'Devise'],
-    // liveLink: 'https://mysite-uoec.onrender.com/',
-    liveLink: 'https://github.com/anas599/Recipe-app',
+  //   sourceLink: 'https://github.com/anas599/Budget-app',
+  // },
+  // {
+  //   name: 'Recipe-App',
+  //   namePop: 'Recipe-App',
+  //   description:
+  //     'Recipe App is a robust and user-friendly recipe application built using Ruby on Rails, leveraging the power of Bootstrap, Devise, and Capybara gems. Seamlessly create, discover, and share recipes with it.',
+  //   featuredImage: './images/work/Recipe-app.webp',
+  //   featuredImageDesktop: './images/work/Recipe-app.webp',
+  //   technologies: ['Ruby on Rails', 'PSQL', 'Bootstrap', 'API', 'Devise'],
+  //   // liveLink: 'https://mysite-uoec.onrender.com/',
+  //   liveLink: 'https://github.com/anas599/Recipe-app',
 
-    sourceLink: 'https://github.com/anas599/Recipe-app',
-  },
-  {
-    name: 'Blog App',
-    namePop: 'Blog App',
-    description:
-      'Blog Build is a Ruby on Rails web app with PostgreSQL database that enables users to publish blog posts, like and comment on other posts, and manage their profiles.',
-    featuredImage: './images/work/blog2.webp',
-    featuredImageDesktop: './images/work/blog2.webp',
-    technologies: ['Ruby on Rails', 'PSQL', 'Bootstrap', 'API'],
-    liveLink: 'https://github.com/anas599/blog',
-    sourceLink: 'https://github.com/anas599/blog',
-  },
+  //   sourceLink: 'https://github.com/anas599/Recipe-app',
+  // },
+  // {
+  //   name: 'Blog App',
+  //   namePop: 'Blog App',
+  //   description:
+  //     'Blog Build is a Ruby on Rails web app with PostgreSQL database that enables users to publish blog posts, like and comment on other posts, and manage their profiles.',
+  //   featuredImage: './images/work/blog2.webp',
+  //   featuredImageDesktop: './images/work/blog2.webp',
+  //   technologies: ['Ruby on Rails', 'PSQL', 'Bootstrap', 'API'],
+  //   liveLink: 'https://github.com/anas599/blog',
+  //   sourceLink: 'https://github.com/anas599/blog',
+  // },
   // {
   //   name: 'Space-Travelers',
   //   namePop: 'Space-Travelers',
@@ -170,60 +169,60 @@ const projectsInfo = [
   //   sourceLink: 'https://github.com/anas599/Capstone-project',
   // },
 ];
-const container = document.querySelector('#work');
+const container = document.querySelector("#work");
 
 projectsInfo.forEach((project) => {
   // Create elements
-  const card = document.createElement('div');
-  const img = document.createElement('img');
-  const cardBody = document.createElement('div');
-  const title = document.createElement('h5');
-  const technologies = document.createElement('div');
-  const description = document.createElement('p');
-  const links = document.createElement('div');
-  const liveLink = document.createElement('a');
-  const sourceLink = document.createElement('a');
+  const card = document.createElement("div");
+  const img = document.createElement("img");
+  const cardBody = document.createElement("div");
+  const title = document.createElement("h5");
+  const technologies = document.createElement("div");
+  const description = document.createElement("p");
+  const links = document.createElement("div");
+  const liveLink = document.createElement("a");
+  const sourceLink = document.createElement("a");
   // Const moerBtn = document.createElement("button");
-  const workHeader = document.createElement('h2');
+  const workHeader = document.createElement("h2");
 
   // Set attributes
-  card.classList.add('card', 'glass', 'scroll');
+  card.classList.add("card", "glass", "scroll");
   img.src = project.featuredImage;
-  img.classList.add('card-img-top');
+  img.classList.add("card-img-top");
   img.alt = project.name;
-  img.loading = 'lazy';
-  title.classList.add('card-title');
-  cardBody.classList.add('card-body');
+  img.loading = "lazy";
+  title.classList.add("card-title");
+  cardBody.classList.add("card-body");
   title.textContent = project.name;
-  technologies.classList.add('mb-2');
+  technologies.classList.add("mb-2");
   // MoerBtn.classList.add("btn", "btn-light");
   // moerBtn.id = "moreBtn";
   // moerBtn.innerHTML = `See More <i class="fas fa-external-link-alt"></i>`;
   project.technologies.forEach((tech) => {
-    const badge = document.createElement('span');
+    const badge = document.createElement("span");
     badge.classList.add(
-      'badge',
-      'badge-primary',
-      'rounded-pill',
-      'py-2',
-      'px-3',
-      'mb-2',
+      "badge",
+      "badge-primary",
+      "rounded-pill",
+      "py-2",
+      "px-3",
+      "mb-2",
     );
     badge.innerHTML = `<i class="fab fa-${tech.toLowerCase()}"></i>${tech}`;
     technologies.appendChild(badge);
   });
-  description.classList.add('card-text');
+  description.classList.add("card-text");
   description.textContent = project.description;
   liveLink.href = project.liveLink;
-  liveLink.target = '_blank';
-  liveLink.classList.add('btn', 'btn-light');
+  liveLink.target = "_blank";
+  liveLink.classList.add("btn", "btn-light");
   liveLink.innerHTML = 'See Live <i class="fas fa-external-link-alt"></i>';
   sourceLink.href = project.sourceLink;
-  sourceLink.target = '_blank';
-  sourceLink.classList.add('btn', 'btn-light');
+  sourceLink.target = "_blank";
+  sourceLink.classList.add("btn", "btn-light");
   sourceLink.innerHTML = 'See Source <i class="fab fa-github"></i>';
-  workHeader.classList.add('work-header');
-  workHeader.textContent = 'My Recent Work';
+  workHeader.classList.add("work-header");
+  workHeader.textContent = "My Recent Work";
   // Technologies.innerHTML = project.technologies
 
   // Append elements
